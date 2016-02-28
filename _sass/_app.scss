@@ -1,0 +1,51 @@
+html, body {
+  font-family: Monaco, courier, fixed, swiss, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+* {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#all {
+  & > * {
+    padding: 0 1em;
+
+    hr {
+      margin: 2em 0 1em 0;
+      padding: 0;
+      margin-left: -1em;
+      margin-right: -1em;
+    }
+
+  }
+
+  main hr:last-child {
+    display: none;
+  }
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+a.show-action-link {
+  text-align: center;
+  display: block;
+  padding: 0.3em 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: -1em;
+  margin-right: -1em;
+  border: 1px dashed transparent;
+}

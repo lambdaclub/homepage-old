@@ -1,0 +1,27 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Dnepropetrovsk Lambda Club
+email: support@lambdaclub.net
+description: >
+  В&nbsp;последнее время в&nbsp;мире разработчиков сложилось пока
+  не&nbsp;такое большое, но&nbsp;растущее сообщество тех, кто так
+  или иначе в&nbsp;своей профессиональной деятельности предпочитает
+  функциональное программирование в&nbsp;разных его ипостасях. Зачастую,
+  даже независимо от&nbsp;выбранного языка программирования. На&nbsp;основании
+  такого опыта мы&nbsp;решили организовать первую встречу
+  &laquo;Днепропетровского Лямбда-клуба&raquo;. Конечно&nbsp;же,
+  слово &laquo;лямбда&raquo; в&nbsp;названии подразумевает темы так
+  или иначе связанных с&nbsp;функциональным программированием,
+  но&nbsp;это совсем не&nbsp;обязательное условие. Мы&nbsp;практичные,
+  а&nbsp;потому мультипарадигменные.
+baseurl: ""
+url: "http://lambdaclub.net"
+
+# Build settings
+markdown: kramdown

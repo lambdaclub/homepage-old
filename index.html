@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+  <div class="post list-item">
+    <div class="pull-right">
+      <div class="date"><a href="#{{ post.uid }}">{{ post.date | date: "%b %-d, %Y" }}</a></div>
+    </div>
+    <h4>
+      <span id="#{{ post.uid }}">☰</span>
+      {{ post.title }}
+    </h4>
+    <p>{{ post.content }}</p>
+  </div>
+  <hr />
+{% endfor %}
