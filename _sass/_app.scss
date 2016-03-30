@@ -22,6 +22,7 @@ a {
       padding: 0;
       margin-left: -1em;
       margin-right: -1em;
+      clear: both;
     }
 
   }
@@ -48,4 +49,9 @@ a.show-action-link {
   margin-left: -1em;
   margin-right: -1em;
   border: 1px dashed transparent;
+}
+
+img.img-svg {
+  height: 1em;
+  vertical-align: middle;
 }
