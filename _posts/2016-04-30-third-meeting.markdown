@@ -1,6 +1,6 @@
 ---
 layout: default
-uid:    "telegram-channel"
+uid:    "third-meeting"
 title:  "Третья встреча"
 date:   2016-03-30
 categories: events
