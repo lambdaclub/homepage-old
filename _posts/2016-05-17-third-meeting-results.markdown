@@ -1,7 +1,7 @@
 ---
 layout: default
 uid:    "third-meeting-results"
-title:  "Результаты третей встречи"
+title:  "Результаты третьей встречи"
 date:   2016-05-13
 categories: events
 ---
