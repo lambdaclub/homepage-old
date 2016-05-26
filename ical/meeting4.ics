@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lambdaclub Events Calendar//lambdaclub.net//
+BEGIN:VTIMEZONE
+TZID:Europe/Kiev
+BEGIN:STANDARD
+DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20160624T220000
+DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20160624T183000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:λ#4 - Четвертая встреча лямбдаклуба
+DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20160624T183000
+DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20160624T220000
+DTSTAMP;VALUE=DATE-TIME:20160624T095800Z
+UID:4.lambdaclub.net
+DESCRIPTION:Четвертая встреча днепропетровского 
+ лямбдаклуба\, на которой 
+ мы поговорим о парадигме 
+ CSP (параллельном программировании 
+ с каналами) и как писать на CSP. 
+ Будут примеры на Go и Javascript. 
+ Второй доклад будет о теории 
+ категорий и о том\, как это 
+ можно применять практически.
+
+LOCATION:Днепропетровск\, ул. Дмитрия Яворницкого\, 22\, 
+ ДЦ Атриум
+URL:http://lambdaclub.net/#four-meeting
+END:VEVENT
+END:VCALENDAR
