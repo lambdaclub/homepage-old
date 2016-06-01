@@ -7,7 +7,7 @@ categories: events
 ---
 Не&nbsp;успели остыть впечатления от&nbsp;третьей прошедшей встречи Днепропетровского лямбдаклуба, как мы&nbsp;уже запланировали четвертую встречу. Состоится она [<img src="/images/c.svg" class="img-svg" /> **24&nbsp;июня**, в&nbsp;пятницу, в 18:30](/ical/meeting4.ics). Не опаздывайте.
 
-<a style="text-align: center; font-weight: bold; display: block; text-decoration: underline;" href="http://goo.gl/forms/d7XqmuH5jrOdbDBH3">Для регистрации заполните, пожалуйста, анкету</a>.
+<a style="text-align: center; font-weight: bold; display: block; text-decoration: underline;" href="http://goo.gl/forms/d7XqmuH5jrOdbDBH3">Для регистрации заполните, пожалуйста, анкету.</a>
 
 В этот раз принимающей стороной выступают наши друзья из компании [SoftServe](https://softserve.ua/). Место встречи -- офис [SoftServe](https://softserve.ua/) на проспекте имени двух замечательных людей, Дмитрия Яворницкого и Карла Маркса, дом 22.
 
