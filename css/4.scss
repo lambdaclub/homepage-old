@@ -1,0 +1,112 @@
+---
+---
+
+body {
+    margin: 0px;
+}
+ .all {
+
+ }
+
+.header {
+  background-color: #b27d38;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+
+  p {
+    font-size: 20px;
+  }
+
+}
+
+.name-logo {
+   font-size: 23px;
+   font-weight: bold;
+}
+.all {
+  display: block;
+  min-height: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #74460a;
+
+  p.check-in {
+    color: #ffffff;
+    font-size: 24px;
+  }
+
+  ol#when li {
+    display: inline-block;
+    color: #ffffff;
+    padding-top: 20px;
+    }
+
+  #calendar {
+    width: 125px;
+    height: 55px;
+
+    img {
+      width: 50px;
+      float: left;
+    }
+
+  }
+
+  #time {
+    width: 130px;
+    margin-left: 50px;
+
+    img {
+      width: 50px;
+      float: left;
+
+    }
+  }
+
+  #location {
+    width: 200px;
+    margin-left: 40px;
+
+    img {
+      width: 40px;
+      float: left;
+    }
+  }
+}
+
+
+
+
+
+footer {
+  text-align: center;
+  background-color: #0c0c0b;
+  min-height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  div {
+    display: inline-block;
+    vertical-align: middle;
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+  }
+
+}
+
+.pull-left {
+
+}
+
+.pull-center {
+
+}
+
+.pull-right {
+
+}

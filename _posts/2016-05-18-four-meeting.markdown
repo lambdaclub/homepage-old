@@ -1,10 +1,13 @@
 ---
 layout: default
+css: 4
 uid:    "four-meeting"
 title:  "Четвертая встреча"
 date:   2016-05-18
 categories: events
 ---
+
+<div> nbnbnbnbnbnbnbn</div>
 Не&nbsp;успели остыть впечатления от&nbsp;третьей прошедшей встречи Днепропетровского лямбдаклуба, как мы&nbsp;уже запланировали четвертую встречу. Состоится она [<img src="/images/c.svg" class="img-svg" /> **24&nbsp;июня**, в&nbsp;пятницу, в 18:30](/ical/meeting4.ics). Не опаздывайте.
 
 <a style="text-align: center; font-weight: bold; display: block; text-decoration: underline;" href="http://goo.gl/forms/d7XqmuH5jrOdbDBH3">Для регистрации заполните, пожалуйста, анкету.</a>
