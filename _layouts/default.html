@@ -1,17 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-  {% include metrika.html %}
-  {% include head.html %}
-  <body class="light">
-    <div id="all">
-      {% include header.html %}
+<!DOCTYPE HTML>
+<html>
+	{% include head.html %}
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-      <main role="main">
-        {{ content }}
-      </main>
+				<!-- Header -->
+        {% include header.html %}
 
-      <div class="pseudo-footer"> </div>
-      {% include footer.html %}
-    </div>
-  </body>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1>Ежемесячные митапы о функциональном программировании</h1>
+								<p>Сообщество разработчиков использующих функциональную парадигму программирования в профессиональной деятельности.</p>
+							</header>
+
+              {{ content }}
+						
+						</div>
+					</div>
+
+				<!-- Footer -->
+        {% include footer.html %}
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+			{% include metrika.html %}
+
+	</body>
 </html>
