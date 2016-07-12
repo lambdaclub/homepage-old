@@ -2,98 +2,126 @@
 ---
 
 body {
-    margin: 0px;
+  overflow-x:hidden;
+  margin: 0px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
 }
- .all {
-
- }
 
 .header {
   background-color: #b27d38;
   width: 100%;
   text-align: center;
   padding: 20px;
+  margin: 0 auto;
 
   p {
-    font-size: 20px;
+    font-size: 25px;
+  }
+  div.name-logo {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    letter-spacing: 8px;
+    font-weight: bold;
   }
 
 }
 
-.name-logo {
-   font-size: 23px;
-   font-weight: bold;
+.reports {
+  margin: 0 auto;
+  overflow: auto;
+
+  div.block {
+    display: inline-block;
+    margin-left: 20px;
+    max-width: 1200px;
+  }
+
+  #report1 {
+    list-style-type: none;
+
+    img {
+      border-radius: 300px;
+    }
+  }
+
+  #report2 {
+    list-style-type: none;
+
+    img {
+      border-radius: 300px;
+    }
+  }
 }
+
 .all {
   display: block;
   min-height: 200px;
-  margin-bottom: 20px;
+  margin: 0 auto;;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   background-color: #74460a;
+  width: 100%;
 
   p.check-in {
     color: #ffffff;
     font-size: 24px;
+
+    a {
+      color: #ffffff;
+    }
   }
 
-  ol#when li {
-    display: inline-block;
-    color: #ffffff;
-    padding-top: 20px;
-    }
+  ol#when {
+    padding: 0px;
 
-  #calendar {
-    width: 125px;
-    height: 55px;
+    li {
+      display: inline-block;
+      color: #ffffff;
+      padding-top: 20px;
+      width: 350px;
+      text-align: left;
+      margin-left: 55px;
 
-    img {
+      p {
+        font-size: 20px;
+        display: inline-block;
+      }
+      }
+
+    #calendar img {
       width: 50px;
-      float: left;
     }
 
-  }
-
-  #time {
-    width: 130px;
-    margin-left: 50px;
-
-    img {
+    #time img {
       width: 50px;
-      float: left;
-
     }
-  }
 
-  #location {
-    width: 200px;
-    margin-left: 40px;
-
-    img {
+    #location img {
       width: 40px;
-      float: left;
     }
   }
-}
-
-
-
+  }
 
 
 footer {
+  width: 100%;
   text-align: center;
   background-color: #0c0c0b;
-  min-height: 100px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  line-height: 200px;
 
   div {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     display: inline-block;
     vertical-align: middle;
+    width: 450px;
 
     a {
       color: #ffffff;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 30px;
     }
   }
 
@@ -103,10 +131,13 @@ footer {
 
 }
 
-.pull-center {
-
+div.pull-center a {
+  text-transform: uppercase;
 }
 
-.pull-right {
+.pull-right a {
+  span.serve-bold {
+    font-weight: bold;
+  }
 
 }
