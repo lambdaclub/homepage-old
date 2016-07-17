@@ -19,39 +19,52 @@ body {
   }
   div.name-logo {
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 60px;
     letter-spacing: 8px;
-    font-weight: bold;
+
+    @media (max-width: 768px) {
+      font-size: 40px;
+      letter-spacing: 4px;
+    }
+
   }
 
 }
 
 .reports {
-  margin: 0 auto;
-  overflow: auto;
+    padding: 0 15px;
+    margin: 0 auto;
 
-  div.block {
+    .reports1 {
+      margin: 0 auto;;
+    }
+    .reports2 {
+      margin: 0 auto;;
+    }
+
+  .description-block {
     display: inline-block;
-    margin-left: 20px;
-    max-width: 1200px;
+    width: 70%;
+    vertical-align: middle;
   }
 
-  #report1 {
-    list-style-type: none;
+  .image-block {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
 
     img {
-      border-radius: 300px;
+      border-radius: 100px;
+
     }
   }
 
-  #report2 {
-    list-style-type: none;
-
-    img {
-      border-radius: 300px;
-    }
+  @media (min-width: 992px) {
+    width: 970px;
   }
 }
+
 
 .all {
   display: block;
@@ -108,7 +121,7 @@ footer {
   width: 100%;
   text-align: center;
   background-color: #0c0c0b;
-  padding: 20px;
+  padding: 0;
   margin: 0 auto;
   line-height: 200px;
 
@@ -117,6 +130,10 @@ footer {
     display: inline-block;
     vertical-align: middle;
     width: 450px;
+
+    @media (max-width: 768px) {
+      width: 385px;
+    }
 
     a {
       color: #ffffff;
@@ -127,17 +144,6 @@ footer {
 
 }
 
-.pull-left {
-
-}
-
-div.pull-center a {
-  text-transform: uppercase;
-}
-
-.pull-right a {
-  span.serve-bold {
-    font-weight: bold;
-  }
-
+div.pull-left a {
+  color: #74460a;
 }
