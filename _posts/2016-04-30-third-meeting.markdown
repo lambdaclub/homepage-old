@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: lambdaclub3
 uid:    "third-meeting"
 title:  "Третья встреча"
 date:   2016-04-13
