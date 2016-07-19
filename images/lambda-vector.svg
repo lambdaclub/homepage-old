@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="754px" height="625px" viewBox="0 0 754 625" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>lambda-vector</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="45.6168185%" cy="17.7555239%" fx="45.6168185%" fy="17.7555239%" r="88.0392975%" id="radialGradient-1">
+            <stop stop-color="#FFA816" offset="0%"></stop>
+            <stop stop-color="#923E04" offset="81.122449%"></stop>
+            <stop stop-color="#984004" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="45.6168185%" cy="17.7555239%" fx="45.6168185%" fy="17.7555239%" r="88.0392975%" id="radialGradient-2">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="109.289617%" y1="-65.8865697%" x2="-26.3466042%" y2="105.682058%" id="linearGradient-3">
+            <stop stop-color="#FF9700" offset="0%"></stop>
+            <stop stop-color="#974004" offset="100%"></stop>
+        </linearGradient>
+        <path d="M326.92,495.72 L326.92,412.2 L138.28,412.2 L138.28,376.92 L347.08,116.28 L387.4,116.28 L387.4,363.24 L445.72,363.24 L445.72,412.2 L387.4,412.2 L387.4,495.72 L326.92,495.72 Z M211.72,363.24 L326.92,363.24 L326.92,219.24 L211.72,363.24 Z" id="path-4"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="lambda-vector" sketch:type="MSLayerGroup">
+            <path d="M324.097596,623.999978 C402.097596,623.999978 490.097596,584.999947 548.097596,531.999978 C606.097596,479.000008 628.097596,399.000008 648.097596,358.000008 C677.782501,297.145952 707.097596,227.999993 731.097596,169.999993 C742.44219,142.583891 768.097596,99.0000007 741.097596,53.0000007 C714.097596,7.0000007 673.517642,2.83462667 646.097596,1.78000953 C594.097596,-0.219990402 403.097596,1.78000955 304.097596,1.78000956 C155.097596,1.78000957 6.09759541,140.000007 1.09759556,302.000007 C-3.90240429,464.000007 131.097596,623.999978 324.097596,623.999978 Z" id="Oval-2" stroke-opacity="0.0144927536" stroke="#000000" fill="url(#radialGradient-1)" sketch:type="MSShapeGroup"></path>
+            <path d="M573,154 L594.5,154 L629.75,98.5 L654.25,158.5 L689,148 L683.75,130.25 L668,135.75 L630,41.25 L597.5,41.25 L597.5,59.25 L616.5,58.75 L622,74.25 L573,154 Z" id="Path" stroke="#000000" fill="url(#radialGradient-2)" sketch:type="MSShapeGroup"></path>
+            <ellipse id="Oval-1" stroke="#000000" fill="#000000" sketch:type="MSShapeGroup" cx="319" cy="321" rx="267" ry="254"></ellipse>
+            <g id="4-">
+                <use fill="none" sketch:type="MSShapeGroup" xlink:href="#path-4"></use>
+                <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+            </g>
+        </g>
+    </g>
+</svg>

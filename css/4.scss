@@ -14,6 +14,22 @@ body {
   padding: 20px 0;
   margin: 0 auto;
 
+  a {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    img {
+      max-width: 300px;
+
+      @media (max-width: 768px) {
+        max-width: 200px;
+      }
+      @media screen and (max-width: 568px) {
+        max-width: 100px;
+      }
+    }
+  }
+
   p {
     font-size: 25px;
 
@@ -21,7 +37,6 @@ body {
       font-size: 16px;
       margin: 0 10px;
     }
-
     @media screen and (max-width: 568px) {
       font-size: 12px;
     }
@@ -37,14 +52,11 @@ body {
       font-size: 30px;
       letter-spacing: 4px;
     }
-
     @media screen and (max-width: 568px) {
       font-size: 24px;
       white-space: nowrap;
     }
-
   }
-
 }
 
 .reports {
@@ -52,8 +64,11 @@ body {
     margin: 0 auto;
 
     @media (max-width: 768px) {
-      width: 100%;
-      margin-left: 10px;
+      width: 90%;
+      box-sizing: border-box;
+    }
+    @media (max-width: 568px) {
+      width: 90%;
     }
 
     .reports1 {
@@ -61,23 +76,20 @@ body {
       margin-bottom: 20px;
     }
     .reports2 {
-    margin-top: 40px;
-    margin-bottom: 20px;
+      margin-top: 40px;
+      margin-bottom: 20px;
     }
 
   .description-block {
-    width: 70%;
     vertical-align: middle;
     clear: right;
     margin-left: 225px;
 
     @media (max-width: 768px) {
-      width: 90%;
-      margin-left: 0px;
+      margin-left: 105px;
       font-size: 0.7em;
     }
     @media screen and (max-width: 568px) {
-      width: 85%;
       margin-left: 0px;
       font-size: 0.6em;
     }
@@ -132,6 +144,7 @@ body {
   text-align: center;
   background-color: #74460a;
   width: 100%;
+
   @media screen and (max-width: 568px) {
     padding-bottom: 5px;
   }
@@ -140,10 +153,12 @@ body {
     color: #ffffff;
     font-size: 24px;
 
+    @media (max-width: 1240px) {
+      font-size: 18px;
+    }
     @media (max-width: 768px) {
       font-size: 14px;
     }
-
     @media screen and (max-width: 568px) {
       font-size: 10px;
     }
@@ -160,12 +175,16 @@ body {
       display: inline-block;
       color: #ffffff;
       padding-top: 20px;
-      width: 350px;
+      width: 315px;
       text-align: left;
       margin-left: 55px;
 
+      @media (max-width: 1240px) {
+        width: 250px;
+        margin-left: 10px;
+      }
       @media (max-width: 768px) {
-        width: auto;
+        width: 200px;
         margin-left: 10px;
       }
       @media screen and (max-width: 568px) {
@@ -181,6 +200,10 @@ body {
         vertical-align: middle;
         margin-left: 20px;
 
+        @media (max-width: 1240px) {
+          font-size: 16px;
+          margin-left: 10px;
+        }
         @media (max-width: 768px) {
           font-size: 12px;
           margin-left: 10px;
@@ -248,7 +271,6 @@ footer {
     @media (max-width: 768px) {
       width: 50px;
     }
-
     @media screen and (max-width: 568px) {
       width: 40px;
     }
@@ -258,14 +280,13 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     vertical-align: middle;
-    width: 430px;
+    width: 420px;
 
     @media (max-width: 768px) {
-      width: 100px;
+      width: 160px;
     }
-
     @media screen and (max-width: 568px) {
-      width: 80px;
+      width: 103px;
     }
 
     a {
@@ -276,13 +297,11 @@ footer {
       @media (max-width: 768px) {
         font-size: 12px;
       }
-
       @media screen and (max-width: 568px) {
         font-size: 9px;
       }
     }
   }
-
   }
 
 div.pull-left a {
