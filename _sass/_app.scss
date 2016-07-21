@@ -55,3 +55,37 @@ img.img-svg {
   height: 1em;
   vertical-align: middle;
 }
+
+div.meeting {
+  display: block;
+  width: auto;
+  ul {
+    margin: 5px 0px;
+    width: 100%;
+    padding-left: 0px;
+    li {
+      display: inline-block;
+      margin-left: 40px;
+
+      @media (max-width: 768px) {
+        margin-left: 20px;
+      }
+      @media screen and (max-width: 568px) {
+        margin-left: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 14px;
+
+        @media (max-width: 768px) {
+          font-size: 12px;
+        }
+        @media screen and (max-width: 568px) {
+          font-size: 9px;
+        }
+      }
+
+    }
+  }
+}
