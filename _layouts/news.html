@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,26 +9,8 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   </head>
-  <body class="light">
-    <div id="all">
-      <header class="header">
-        <a href="/" class="logo">{{ site.title }}</a>
-        <div class="pull-right">
-        </div>
-      </header>
 
-      <main role="main">
-        {{ content }}
-      </main>
-
-      <div class="pseudo-footer"> </div>
-      <footer>
-        <div class="pull-left">
-        </div>
-        <div class="pull-right">
-          <!-- <a href="#" class="theme_changer">◼</a> -->
-        </div>
-      </footer>
-    </div>
+  <body>
+    {{ content }}
   </body>
 </html>
