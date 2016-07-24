@@ -22,6 +22,8 @@ description: >
   а&nbsp;потому мультипарадигменные.
 baseurl: ""
 url: "http://lambdaclub.net"
+gems:
+  - jekyll-redirect-from
 
 # Build settings
 markdown: kramdown

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: news
 uid:    "telegram-channel"
 title:  "Канал в телеграмме"
 date:   2016-03-30

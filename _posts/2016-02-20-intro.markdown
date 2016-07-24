@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: news
 uid:    "intro"
 title:  "Общая информация"
 date:   2016-02-20
