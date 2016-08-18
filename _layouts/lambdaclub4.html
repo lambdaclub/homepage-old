@@ -8,8 +8,18 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta itemprop="image" content="/images/lambda-vector.svg">
-  
+
+    <meta itemprop="name" content="Lambdaclub"/>
+    <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+    <meta itemprop="image" content="/images/lambda-4.png"/>
+
+    <meta property="og:title" content="Lambdaclub"/>
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+    <meta property="og:image" content="images/lambda-vector.svg">
+    <meta property="og:url" content="http://lambdaclub.net/"/>
+
+
+
 
 
   </head>
