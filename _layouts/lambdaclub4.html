@@ -18,6 +18,12 @@
     <meta property="og:image" content="{{ "/images/logo-lambda-4.png" | prepend: site.baseurl | prepend: site.url }}"/>
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
 
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+    <meta name="twitter:image:src" content="{{ "/images/logo-lambda-4.png" | prepend: site.baseurl | prepend: site.url }}"/>
+    <!--<meta name="twitter:domain" content="website.com"/>-->
+
+
 
 
 
