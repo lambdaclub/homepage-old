@@ -11,12 +11,12 @@
 
     <meta itemprop="name" content="{{ site.title }}"/>
     <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
-    <meta itemprop="image" content="{{ "/images/lambda-4.png" | prepend: site.baseurl | prepend: site.url }}"/>
+    <meta itemprop="image" content="{{ "/images/logo-lambda-4.png" | prepend: site.baseurl | prepend: site.url }}"/>
 
     <meta property="og:title" content="{{ site.title }}"/>
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
-    <meta property="og:image" content="{{ "/images/lambda-4.png" | prepend: site.baseurl | prepend: site.url }}"/>
-    <meta property="og:url" content="{{ site.url }}"/>
+    <meta property="og:image" content="{{ "/images/logo-lambda-4.png" | prepend: site.baseurl | prepend: site.url }}"/>
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
 
 
 
