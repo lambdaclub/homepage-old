@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lambdaclub Events Calendar//lambdaclub.net//
+BEGIN:VTIMEZONE
+TZID:Europe/Kiev
+BEGIN:STANDARD
+DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20160830T220000
+DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20160830T190000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:λ#5 - Пятая встреча лямбдаклуба
+DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20160830T190000
+DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20160830T220000
+DTSTAMP;VALUE=DATE-TIME:20160830T095800Z
+UID:5.lambdaclub.net
+DESCRIPTION:Пятая встреча днепропетровского 
+ лямбдаклуба\, на которой 
+ мы будем говорить о языке Prolog и об обработке изображений.
+
+LOCATION:Днепропетровск\, ул. Павла Ниринберга\, 10 Бизнес-центр\, 2-й этаж
+URL:http://lambdaclub.net/5
+END:VEVENT
+END:VCALENDAR
