@@ -3,6 +3,8 @@
 
 $body-color: rgba(33, 38, 51, 1);
 $text-font: rgba(254, 252, 253, 1);
+$blue: #016FB9;
+
 @mixin gradient {
   background: rgba(167, 79, 6, 1);
   background: -moz-linear-gradient(left, rgba(167, 79, 6, 1) 0%, rgba(172, 81, 6, 1) 8%, rgba(237, 146, 18, 1) 49%, rgba(237, 146, 18, 1) 51%, rgba(172, 81, 6, 1) 93%, rgba(167, 79, 6, 1) 100%);
@@ -51,7 +53,7 @@ body {
       font-size: 12px;
     }
   }
-  div.name-logo {
+  .logo-name {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 60px;
@@ -65,7 +67,7 @@ body {
       white-space: nowrap;
     }
   }
-  .name-logo, p {
+  .logo-name, p {
     @include gradient;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -75,76 +77,66 @@ body {
 .reports {
   padding: 0 15px;
   margin: 0 auto;
-  @media (max-width: 768px) {
-    width: 90%;
-    box-sizing: border-box;
+  width: 100%;
+  max-width: 960px;
+  box-sizing: border-box;
+  &-inner {
+    margin: 2rem auto;
+    max-width: 960px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
   }
-  @media (max-width: 568px) {
-    width: 90%;
-  }
-  .reports1 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .reports2 {
-    margin-top: 40px;
-    margin-bottom: 20px;
+  img {
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+    @media (max-width: 768px) {
+
+    }
+    @media (max-width: 568px) {
+      width: 50%;
+    }
   }
   .description-block {
+    width: 100%;
     vertical-align: middle;
-    clear: right;
-    margin-left: 225px;
     @media (max-width: 768px) {
-      margin-left: 105px;
-      font-size: 0.7em;
+      font-size: 1em;
     }
-    @media screen and (max-width: 568px) {
-      margin-left: 0px;
-      font-size: 0.6em;
+    @media screen and (min-width: 768px) {
+      width: 60%;
+      margin-left: 31%;
     }
   }
-  .image-block {
+  &-block {
+    width: 60%;
+    @media (max-width: 568px) {
+      width: 100%;
+    }
     h3 {
-      margin-left: 225px;
       @media (max-width: 768px) {
-        width: 65%;
-        margin-left: 105px;
-        font-size: 0.9em;
+        font-size: 1em;
       }
       @media screen and (max-width: 568px) {
-        margin-left: 65px;
-        font-size: 0.7em;
+        font-size: 0.9em;
       }
     }
     h3.topic {
       color: #ca7507;
     }
     h3.speaker-description {
-      color: #016FB9;
+      color: $blue;
     }
-    img {
-      border-radius: 100px;
-      float: left;
-      margin-top: 20px;
-      @media (max-width: 768px) {
-        width: 100px;
-        margin-top: 5px;
-      }
-      @media screen and (max-width: 568px) {
-        width: 60px;
-        margin-top: 5px;
-      }
-    }
-  }
-  @media (min-width: 992px) {
-    width: 970px;
   }
 }
 
 .all {
-  display: block;
   margin: 0 auto;
-  ;
   padding: 20px 0;
   text-align: center;
   @include gradient;
@@ -152,17 +144,24 @@ body {
   @media screen and (max-width: 568px) {
     padding-bottom: 5px;
   }
-  p.check-in {
+  .check-in {
     color: $body-color;
     font-size: 24px;
+    padding-right: 2.5rem;
     @media (max-width: 1240px) {
       font-size: 18px;
     }
     @media (max-width: 768px) {
       font-size: 14px;
+      padding-right: .5rem;
     }
     @media screen and (max-width: 568px) {
-      font-size: 10px;
+      font-size: 12px;
+      display: inline-flex;
+      flex-direction: column;
+      & a {
+        margin: 0.5rem 0;
+      }
     }
     a {
       display: inline-flex;
@@ -172,99 +171,94 @@ body {
       padding: 0.3rem 1rem;
       font-size: 20px;
       border-radius: 9px;
+      &:hover {
+        -webkit-box-shadow: inset 0px 0px 7px 0px rgba(1,111,185,1);
+        -moz-box-shadow: inset 0px 0px 7px 0px rgba(1,111,185,1);
+        box-shadow: inset 0px 0px 7px 0px rgba(1,111,185,1);
+      }
     }
   }
   a {
     text-decoration: none;
     color: $body-color;
     font-size: 20px;
-    display: inline-block;
     vertical-align: middle;
-    margin-left: 20px;
     @media (max-width: 1240px) {
       font-size: 16px;
-      margin-left: 10px;
     }
     @media (max-width: 768px) {
       font-size: 12px;
-      margin-left: 10px;
-    }
-    @media screen and (max-width: 568px) {
-      font-size: 10px;
-      margin-left: 5px;
-    }
-    span {
-      width: 75%;
-    }
-  }
-  .calendar img {
-    width: 50px;
-    vertical-align: middle;
-    @media (max-width: 768px) {
-      width: 25px;
-    }
-  }
-  .calendar {
-    display: block;
-    width: 170px;
-    height: auto;
-    padding: 0.2rem;
-    background-color: $body-color;
-    border-radius: 9px;
-    margin: auto;
-    p {
-      margin: 0;
-      padding-bottom: 0.3rem;
-      font-size: 33px;
-      color: #016FB9;
-      text-transform: uppercase;
-    }
-  }
-  p.date {
-    font-size: 46px;
-    font-weight: bold;
-  }
-  p.time {
-    color: #D62828;
-    position: relative;
-    &::before {
-      content: "";
-      display: block;
-      width: 140px;
-      height: 2px;
-      background-color: #D62828;
       margin: auto;
     }
   }
-  #time img {
-    width: 50px;
-    vertical-align: middle;
-    @media (max-width: 768px) {
-      width: 25px;
+}
+
+.animated:hover {
+  animation: bounce 1.5s;
+}
+
+.calendar {
+  display: block;
+  width: 170px;
+  height: auto;
+  padding: 0.2rem;
+  background-color: $body-color;
+  border-radius: 9px;
+  margin: auto;
+  &:hover {
+    animation: tada 1s;
+    -webkit-animation: tada 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  p {
+    margin: 0;
+    padding-bottom: 0.3rem;
+    font-size: 33px;
+    color: $blue;
+    text-transform: uppercase;
+    @media screen and (max-width: 568px) {
+      font-size: 22px;
     }
   }
-  .location img {
-    width: 30px;
-    @media (max-width: 768px) {
-      width: 20px;
-    }
+}
+
+p.date {
+  font-size: 46px;
+  font-weight: bold;
+  @media screen and (max-width: 568px) {
+      font-size: 24px;
+  }
+}
+
+p.time {
+  color: #D62828;
+  position: relative;
+  &::before {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 2px;
+    background-color: #D62828;
+    margin: auto;
+  }
+}
+
+.location img {
+  width: 30px;
+  @media (max-width: 768px) {
+    width: 20px;
   }
 }
 
 footer {
   width: 100%;
   @include gradient;
-  }
-//  img {
-//    @media (max-width: 768px) {
-//      width: 50px;
-//    }
-//    @media screen and (max-width: 568px) {
-//      width: 40px;
-//    }
-//  }
+}
+
 ul {
-  width: 100vw;
+  width: 100%;
+  max-width: 960px;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -273,7 +267,7 @@ ul {
   justify-content: space-around;
   padding: 2rem 0;
   margin: 0 auto;
-  @media (max-width: 768px) {
+  @media (max-width: 568px) {
     flex-direction: column;
     align-items: center;
     padding: 2rem 0;
@@ -287,12 +281,20 @@ ul {
         color: $body-color;
         text-decoration: none;
         font-size: 20px;
+        &:hover {
+          color: $blue;
+        }
+        &:focus {
+          color: $blue;
+        }
       }
     }
 }
 
 .partners {
-  width: 100vw;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
   padding: 3rem 0;
   display: -webkit-flex;
   display: -moz-flex;
@@ -300,24 +302,24 @@ ul {
   display: -o-flex;
   display: flex;
   justify-content: space-around;
-  border-top: 1px dotted;
   flex-direction: row;
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
     padding: 2rem 0 0 0;
   }
+  &-inner {
+    width: 100%;
+    border-top: 1px dotted;
+  }
 }
 
-div.pull-left,
+.pull-left,
 .pull-center,
 .pull-right {
   font-family: Arial, Helvetica, sans-serif;
   @media (max-width: 768px) {
     margin-bottom: 2rem;
-  }
-  @media screen and (max-width: 568px) {
-
   }
   a {
     color: $body-color;
@@ -330,6 +332,6 @@ div.pull-left,
   }
 }
 
-div.pull-left a {
+.pull-left a {
   color: #d8d9d4;
 }
