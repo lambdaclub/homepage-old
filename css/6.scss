@@ -58,6 +58,7 @@ body {
     font-weight: bold;
     font-size: 60px;
     letter-spacing: 8px;
+    margin: 0;
     @media (max-width: 768px) {
       font-size: 30px;
       letter-spacing: 4px;
@@ -71,6 +72,141 @@ body {
     @include gradient;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+}
+
+.information {
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+  @include gradient;
+  width: 100%;
+  @media screen and (max-width: 568px) {
+    padding-bottom: 5px;
+  }
+  .check-in {
+    color: $body-color;
+    font-size: 24px;
+    padding-right: 2.5rem;
+    margin-bottom: 0;
+    @media (max-width: 1240px) {
+      font-size: 18px;
+    }
+    @media (max-width: 768px) {
+      font-size: 14px;
+      padding-right: 1.5rem;
+    }
+    @media screen and (max-width: 568px) {
+      font-size: 12px;
+      display: -webkit-box;
+      display: inline-flex;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      -webkit-box-orient: vertical;
+      -webkit-flex-flow: column wrap;
+      flex-flow: column wrap;
+      & a {
+        margin: 0.5rem;
+      }
+    }
+    a {
+      display: inline-block;
+      color: #D62828;
+      background-color: $body-color;
+      text-transform: uppercase;
+      padding: 0.3rem 1rem;
+      font-size: 20px;
+      border-radius: 9px;
+      text-align: center;
+      &:hover, &:focus {
+        -webkit-box-shadow: inset 0px 0px 7px 0px rgba(1,111,185,1);
+        -moz-box-shadow: inset 0px 0px 7px 0px rgba(1,111,185,1);
+        box-shadow: inset 0px 0px 7px 0px rgba(1,111,185,1);
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $body-color;
+    font-size: 20px;
+    vertical-align: middle;
+    @media (max-width: 1240px) {
+      font-size: 16px;
+    }
+    @media (max-width: 768px) {
+      font-size: 12px;
+      margin: auto;
+    }
+  }
+}
+
+.animated:hover {
+  animation: bounceOut 1.5s;
+}
+
+.calendar {
+  display: block;
+  width: 170px;
+  height: auto;
+  padding: 0.2rem;
+  background-color: $body-color;
+  border-radius: 9px;
+  box-sizing: border-box;
+  margin: auto;
+  @media screen and (max-width: 568px) {
+    width: 140px;
+  }
+  &:hover {
+    animation: tada 1.2s;
+    -webkit-animation: tada 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  p {
+    margin: 0;
+    padding-bottom: 0.3rem;
+    font-size: 33px;
+    color: $blue;
+    text-transform: uppercase;
+    @media screen and (max-width: 568px) {
+      font-size: 22px;
+    }
+  }
+}
+
+p.date {
+  font-size: 46px;
+  font-weight: bold;
+  @media screen and (max-width: 568px) {
+    font-size: 24px;
+  }
+}
+
+p.time {
+  color: #D62828;
+  position: relative;
+  &::before {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 2px;
+    background-color: #D62828;
+    margin: auto;
+    @media screen and (max-width: 568px) {
+      width: 110px;
+    }
+  }
+}
+
+.location {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  img {
+    width: 30px;
+    @media (max-width: 768px) {
+      width: 20px;
+    }
   }
 }
 
@@ -117,157 +253,35 @@ body {
     }
   }
   &-block {
-  -webkit-flex: 5;
-  -webkit-box-flex: 5;
-  -moz-flex: 5;
-  -moz-box-flex: 5;
-  -ms-flex: 5;
-  flex: 5;
-  @media (max-width: 568px) {
-    width: 100%;
-  }
-  h3 {
-    @media (max-width: 768px) {
-      font-size: 1em;
+    -webkit-flex: 5;
+    -webkit-box-flex: 5;
+    -moz-flex: 5;
+    -moz-box-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    @media (max-width: 568px) {
+      width: 100%;
     }
-    @media screen and (max-width: 568px) {
-      font-size: 0.9em;
-    }
-  }
-  h3.topic {
-    color: #ca7507;
-  }
-  h3.speaker-description {
-    color: $blue;
-  }
-  &-description {
-    width: 100%;
-    @media (max-width: 768px) {
-      font-size: 1em;
-    }
-  }
-}
-}
-
-.all {
-  margin: 0 auto;
-  padding: 20px 0;
-  text-align: center;
-  @include gradient;
-  width: 100%;
-  @media screen and (max-width: 568px) {
-    padding-bottom: 5px;
-  }
-  .check-in {
-    color: $body-color;
-    font-size: 24px;
-    padding-right: 2.5rem;
-    @media (max-width: 1240px) {
-      font-size: 18px;
-    }
-    @media (max-width: 768px) {
-      font-size: 14px;
-      padding-right: .5rem;
-    }
-    @media screen and (max-width: 568px) {
-      font-size: 12px;
-      display: -webkit-box;
-      display: inline-flex;
-      display: -webkit-inline-flex;
-      display: -ms-inline-flexbox;
-      -webkit-box-orient: vertical;
-      webkit-flex-flow: column wrap;
-      flex-flow: column wrap;
-      & a {
-        margin: 0.5rem;
+    h3 {
+      @media (max-width: 768px) {
+        font-size: 1em;
+      }
+      @media screen and (max-width: 568px) {
+        font-size: 0.9em;
       }
     }
-    a {
-      display: inline-block;
-      color: #D62828;
-      background-color: $body-color;
-      text-transform: uppercase;
-      padding: 0.3rem 1rem;
-      font-size: 20px;
-      border-radius: 9px;
-      text-align: center;
-      &:hover {
-        -webkit-box-shadow: inset 0px 0px 7px 0px rgba(1,111,185,1);
-        -moz-box-shadow: inset 0px 0px 7px 0px rgba(1,111,185,1);
-        box-shadow: inset 0px 0px 7px 0px rgba(1,111,185,1);
+    .topic {
+      color: #ca7507;
+    }
+    &-speaker {
+      color: $blue;
+    }
+    &-description {
+      width: 100%;
+      @media (max-width: 768px) {
+        font-size: 1em;
       }
     }
-  }
-  a {
-    text-decoration: none;
-    color: $body-color;
-    font-size: 20px;
-    vertical-align: middle;
-    @media (max-width: 1240px) {
-      font-size: 16px;
-    }
-    @media (max-width: 768px) {
-      font-size: 12px;
-      margin: auto;
-    }
-  }
-}
-
-.animated:hover {
-  animation: bounce 1.5s;
-}
-
-.calendar {
-  display: block;
-  width: 170px;
-  height: auto;
-  padding: 0.2rem;
-  background-color: $body-color;
-  border-radius: 9px;
-  margin: auto;
-  &:hover {
-    animation: tada 1s;
-    -webkit-animation: tada 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-  }
-  p {
-    margin: 0;
-    padding-bottom: 0.3rem;
-    font-size: 33px;
-    color: $blue;
-    text-transform: uppercase;
-    @media screen and (max-width: 568px) {
-      font-size: 22px;
-    }
-  }
-}
-
-p.date {
-  font-size: 46px;
-  font-weight: bold;
-  @media screen and (max-width: 568px) {
-      font-size: 24px;
-  }
-}
-
-p.time {
-  color: #D62828;
-  position: relative;
-  &::before {
-    content: "";
-    display: block;
-    width: 140px;
-    height: 2px;
-    background-color: #D62828;
-    margin: auto;
-  }
-}
-
-.location img {
-  width: 30px;
-  @media (max-width: 768px) {
-    width: 20px;
   }
 }
 
@@ -296,38 +310,43 @@ ul {
     align-items: center;
     padding: 2rem 0;
   }
-    li {
-      list-style-type: none;
-      -webkit-flex:1;
-      -webkit-box-flex:1;
-      -moz-flex:1;
-      -moz-box-flex:1;
-      -ms-flex:1;
-      flex: 1;
-      min-height: 30px;
-      text-align: center;
-      @media (min-width: 568px) {
-        margin: auto;
-        width: auto;
-       }
-      @media (max-width: 768px) {
-        padding: 1rem 0 0 0;
+  li {
+    list-style-type: none;
+    -webkit-flex: 1;
+    -webkit-box-flex: 1;
+    -moz-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-height: 30px;
+    text-align: center;
+    @media (min-width: 568px) {
+      margin: auto;
+      width: auto;
+    }
+    @media (max-width: 768px) {
+      padding: 1rem 0 0 0;
+    }
+    a {
+      display: block;
+      color: $body-color;
+      text-decoration: none;
+      font-size: 20px;
+      &:hover {
+        color: $blue;
       }
-      a {
-        display: block;
-        color: $body-color;
-        text-decoration: none;
-        font-size: 20px;
-        &:hover {
-          color: $blue;
-        }
-        &:focus {
-          color: $blue;
-        }
+      &:focus {
+        color: $blue;
       }
     }
+    &:first-child {
+      @media (min-width: 700px) {
+        flex: none;
+        padding-right: 1.2rem;
+      }
+    }
+  }
 }
-
 .partners {
   width: 100%;
   max-width: 960px;
