@@ -5,22 +5,22 @@ BEGIN:VTIMEZONE
 TZID:Europe/Kiev
 BEGIN:STANDARD
 DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20160830T220000
-DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20160830T190000
+DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20161027T190000
 TZOFFSETFROM:+0300
 TZOFFSETTO:+0300
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:λ#5 - Пятая встреча лямбдаклуба
+SUMMARY:λ#6 - Шестая встреча лямбдаклуба
 DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20160830T190000
 DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20160830T220000
 DTSTAMP;VALUE=DATE-TIME:20160830T095800Z
 UID:5.lambdaclub.net
-DESCRIPTION:Пятая встреча днепропетровского 
+DESCRIPTION:Шестая встреча днепропетровского 
  лямбдаклуба\, на которой 
- мы будем говорить о языке Prolog и об обработке изображений.
+ мы будем говорить о ...
 
-LOCATION:Днепропетровск\, ул. Павла Ниринберга\, 10 Бизнес-центр\, 2-й этаж
-URL:http://lambdaclub.net/5
+LOCATION:Днепр\, ул. Святослава Храброго\, 12\, 316.
+URL:http://lambdaclub.net/6
 END:VEVENT
 END:VCALENDAR
