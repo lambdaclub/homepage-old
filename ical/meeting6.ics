@@ -4,7 +4,7 @@ PRODID:-//Lambdaclub Events Calendar//lambdaclub.net//
 BEGIN:VTIMEZONE
 TZID:Europe/Kiev
 BEGIN:STANDARD
-DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20160830T220000
+DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20161027T210000
 DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20161027T190000
 TZOFFSETFROM:+0300
 TZOFFSETTO:+0300
@@ -12,15 +12,15 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 SUMMARY:λ#6 - Шестая встреча лямбдаклуба
-DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20160830T190000
-DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20160830T220000
-DTSTAMP;VALUE=DATE-TIME:20160830T095800Z
-UID:5.lambdaclub.net
-DESCRIPTION:Шестая встреча днепропетровского 
- лямбдаклуба\, на которой 
- мы будем говорить о ...
+DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20161027T190000
+DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20161027T210000
+DTSTAMP;VALUE=DATE-TIME:20161027T095800Z
+UID:6.lambdaclub.net
+DESCRIPTION:Шестая встреча
+ лямбдаклуба в Днепре\, на которой
+ мы будем говорить о теории игр и как написать свой собственный докер с нуля.
 
-LOCATION:Днепр\, ул. Святослава Храброго\, 12\, 316.
+LOCATION:Днепр\, ул. Святослава Храброго\, 12\, 204 офис.
 URL:http://lambdaclub.net/6
 END:VEVENT
 END:VCALENDAR
