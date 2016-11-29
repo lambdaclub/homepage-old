@@ -23,6 +23,7 @@ div.content {
   }
 
 ul.photo {
+  display: inline-block;
   li {
     display: inline-block;
   }
@@ -36,4 +37,10 @@ ul.photo {
 .foc:focus {
   width: auto;
   z-index:100;
+  @media (max-width: 768px) {
+    width: 500px;
+  }
+  @media screen and (max-width: 568px) {
+    width: 300px;
+  }
 }
