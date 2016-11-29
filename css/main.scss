@@ -21,3 +21,19 @@ div.content {
   position: inherit;
 
   }
+
+ul.photo {
+  li {
+    display: inline-block;
+  }
+}
+
+.foc {
+  width: 150px;
+  cursor:pointer;
+  display:inline;
+}
+.foc:focus {
+  width: auto;
+  z-index:100;
+}
