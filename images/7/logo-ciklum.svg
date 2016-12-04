@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="264px" height="310px" viewBox="0 0 264 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M1.141,107.531 C-1.304,72.685 51.974,39.584 84.04,29.781 L74.959,0.099 C29.399,14.027 -2.333,58.024 1.141,107.531"></path>
+        <path id="path-3" d="M20.648,97.953 C47.511,124.814 91.166,124.881 118.125,98.169 L101.854,81.91 C83.875,99.645 54.811,99.576 36.912,81.687 C19.02,63.787 18.95,34.728 36.697,16.743 L20.437,0.484 C-6.277,27.429 -6.215,71.085 20.648,97.953"></path>
+        <path id="path-5" d="M20.648,97.953 C2.756,80.051 18.95,34.728 36.697,16.743 L20.437,0.484 C-6.277,27.429 -6.215,71.085 20.648,97.953"></path>
+        <path id="path-7" d="M0.317,46.053 C42.934,3.434 144.256,35.431 186.873,78.051 L218.867,46.053 C157.924,-14.901 62.11,-15.747 0.317,46.053"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup">
+            <path d="M159.721,228.735 C119.191,231.566 83.908,200.9 81.074,160.379 C78.627,125.526 100.974,94.584 133.04,84.781 L123.959,55.099 C78.399,69.027 46.667,113.024 50.141,162.531 C54.157,220.117 104.297,263.7 161.885,259.672 C169.965,259.11 177.758,257.633 185.191,255.365 L176.127,225.7 C170.891,227.299 165.408,228.338 159.721,228.735" id="Fill-16" fill="#989998" sketch:type="MSShapeGroup"></path>
+            <g id="Group-19" transform="translate(49.000000, 55.000000)">
+                <mask id="mask-2" sketch:name="Clip 18" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-18"></g>
+                <path d="M1.141,107.531 C-1.304,72.685 51.974,39.584 84.04,29.781 L74.959,0.099 C29.399,14.027 -2.333,58.024 1.141,107.531" id="Fill-17" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+            </g>
+            <g id="Group-22" transform="translate(85.000000, 106.000000)">
+                <mask id="mask-4" sketch:name="Clip 21" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Clip-21"></g>
+                <path d="M20.648,97.953 C47.511,124.814 91.166,124.881 118.125,98.169 L101.854,81.91 C83.875,99.645 54.811,99.576 36.912,81.687 C19.02,63.787 18.95,34.728 36.697,16.743 L20.437,0.484 C-6.277,27.429 -6.215,71.085 20.648,97.953" id="Fill-20" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+            </g>
+            <g id="Group-25" transform="translate(85.000000, 106.000000)">
+                <mask id="mask-6" sketch:name="Clip 24" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="Clip-24"></g>
+                <path d="M20.648,97.953 C2.756,80.051 18.95,34.728 36.697,16.743 L20.437,0.484 C-6.277,27.429 -6.215,71.085 20.648,97.953" id="Fill-23" sketch:type="MSShapeGroup" mask="url(#mask-6)"></path>
+            </g>
+            <path d="M0.129,155.314 C0.129,194.899 15.186,234.47 45.317,264.605 C105.572,324.859 203.613,324.859 263.867,264.605 L231.873,232.599 C189.256,275.21 119.936,275.21 77.32,232.599 C56.009,211.299 45.367,183.315 45.367,155.314 L0.129,155.314" id="Fill-26" fill="#9D9E9D" sketch:type="MSShapeGroup"></path>
+            <path d="M77.311,78.051 C119.936,35.431 189.256,35.431 231.873,78.051 L263.867,46.053 C202.924,-14.901 107.11,-15.747 45.317,46.053 C15.186,76.178 0.129,115.747 0.129,155.314 L45.367,155.314 C45.367,127.334 56.009,99.357 77.311,78.051" id="Fill-27" fill="#898A88" sketch:type="MSShapeGroup"></path>
+            <g id="Group-30" transform="translate(45.000000, 0.000000)">
+                <mask id="mask-8" sketch:name="Clip 29" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <g id="Clip-29"></g>
+                <path d="M0.317,46.053 C42.934,3.434 144.256,35.431 186.873,78.051 L218.867,46.053 C157.924,-14.901 62.11,-15.747 0.317,46.053" id="Fill-28" sketch:type="MSShapeGroup" mask="url(#mask-8)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="384px" height="512px" viewBox="0 0 384 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>location6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="location6" sketch:type="MSLayerGroup" fill="#260000">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="_x31_467221450_x5F_72_x5F_Pin_x5F_alt">
+                    <path d="M192,0 C86,0 0,86 0,192 C0,298 192,512 192,512 C192,512 384,298 384,192 C384,86 298,0 192,0 L192,0 L192,0 Z M192,320 C121.3,320 64,262.7 64,192 C64,121.3 121.3,64 192,64 C262.7,64 320,121.3 320,192 C320,262.7 262.7,320 192,320 L192,320 L192,320 Z M192,128 C156.7,128 128,156.7 128,192 C128,227.3 156.7,256 192,256 C227.3,256 256,227.3 256,192 C256,156.7 227.3,128 192,128 L192,128 L192,128 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

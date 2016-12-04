@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>1467221560_52_Clock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="1467221560_52_Clock" sketch:type="MSLayerGroup" fill="#FFFFFF">
+            <path d="M288,224 L288,128 L224,128 L224,288 L352,288 L352,224 L288,224 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M256,0 C114.625,0 0,114.625 0,256 C0,397.375 114.625,512 256,512 C397.375,512 512,397.375 512,256 C512,114.625 397.375,0 256,0 L256,0 Z M256,448 C149.969,448 64,362.031 64,256 C64,149.969 149.969,64 256,64 C362.03,64 448,149.969 448,256 C448,362.031 362.031,448 256,448 L256,448 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
