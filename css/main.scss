@@ -21,3 +21,26 @@ div.content {
   position: inherit;
 
   }
+
+ul.photo {
+  display: inline-block;
+  li {
+    display: inline-block;
+  }
+}
+
+.foc {
+  width: 150px;
+  cursor:pointer;
+  display:inline;
+}
+.foc:focus {
+  width: auto;
+  z-index:100;
+  @media (max-width: 768px) {
+    width: 500px;
+  }
+  @media screen and (max-width: 568px) {
+    width: 300px;
+  }
+}
