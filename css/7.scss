@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-  background: url(/images/7/bg-gray.png) no-repeat;
+  background: #6c6c6c url(/images/7/bg-gray.jpg);
   background-size: 100% 100%;
 
   width: 100%;
@@ -221,7 +221,8 @@ span.time {
   }
 }
 .reports-bg {
-  background: url(/images/7/bg-gray.png);
+  background: #6c6c6c url(/images/7/bg-gray.jpg);
+  background-size: 100% 100%;
 
   .report-top {
     display: block;
