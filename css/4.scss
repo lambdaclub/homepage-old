@@ -140,7 +140,6 @@ body {
 .all {
   display: block;
   margin: 0 auto;;
-  padding-bottom: 20px;
   text-align: center;
   background-color: #74460a;
   width: 100%;
@@ -247,6 +246,14 @@ body {
       @media (max-width: 768px) {
         width: 20px;
       }
+    }
+  }
+
+  .video {
+    border-top: 1px solid #7a7875;
+
+    h3 {
+      color: #ffffff;
     }
   }
   }
