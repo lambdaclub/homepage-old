@@ -252,8 +252,26 @@ body {
   .video {
     border-top: 1px solid #7a7875;
 
+    iframe {
+      @media (max-width: 768px) {
+        width: 60%;
+        height: auto;
+      }
+      @media screen and (max-width: 568px) {
+        width: 80%;
+        height: auto;
+      }
+    }
+
     h3 {
       color: #ffffff;
+
+      @media (max-width: 768px) {
+        font-size: 1em;
+      }
+      @media screen and (max-width: 568px) {
+        font-size: 0.9em;
+      }
     }
   }
   }
