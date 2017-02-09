@@ -392,8 +392,23 @@ ul.banner-social-buttons {
 #map {
   iframe {
     width: 100%;
+    padding-bottom: -2px;
 
   }
+}
+
+#partners {
+    background-color: #2c2c2c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .col-xs-6 {
+      @media (max-width: 768px) {
+        width: 30%;
+      }
+
+}
+
 }
 
 
