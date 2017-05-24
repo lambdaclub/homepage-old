@@ -5,22 +5,8 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g sketch:type="MSLayerGroup" transform="translate(1.000000, 0.000000)" id="lambda-vector7" stroke="#6C6C6C" fill="#BF5D23">
-            <g sketch:type="MSShapeGroup">
-                <g id="Page-1">
-                    <g id="lambda-vector7">
-                        <g id="Page-1_1_">
-                            <g id="lambda-vector_1_">
-                                <g id="Page-1">
-                                    <g id="lambda-vector">
-                                        <path d="M260.496552,263.622881 L372.858621,538.707627 L532,490.567797 L507.693103,408.959322 L435.231034,434.175424 L261.413793,1.37542373 L112.362069,1.37542373 L112.362069,83.9008475 L199.5,81.6084746 L224.724138,152.672034 L0,518.076271 L98.6034483,518.076271 L260.496552,263.622881 Z" id="Path"></path>
-                                    </g>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-            </g>
+        <g id="Path" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)" stroke="#6C6C6C" fill="#23BF37">
+            <path d="M260.496552,262.622881 L372.858621,537.707627 L532,489.567797 L507.693103,407.959322 L435.231034,433.175424 L261.413793,0.37542373 L112.362069,0.37542373 L112.362069,82.9008475 L199.5,80.6084746 L224.724138,151.672034 L0,517.076271 L98.6034483,517.076271 L260.496552,262.622881 L260.496552,262.622881 Z" sketch:type="MSShapeGroup"></path>
         </g>
     </g>
 </svg>
