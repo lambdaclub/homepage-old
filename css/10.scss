@@ -2,9 +2,10 @@
 ---
 
 // $primary: #bf5d23;
-$primary: #e0dcdd;
-$secondary: #546511;
-$text: #312019;
+$primary: #ffffff;
+$secondary: #000000;
+$text: #000000;
+$text-mirror: #ffffff;
 
 html, body {
   padding: 0;
@@ -148,7 +149,7 @@ a {
   height: auto;
   padding: 100px 0;
   text-align: center;
-  color: $text;
+  color: $text-mirror;
   background-color: $secondary;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -279,7 +280,7 @@ a {
 .registration-section {
   width: 100%;
   padding: 50px 0;
-  color: $text;
+  color: $text-mirror;
   background-color: $secondary;
   -webkit-background-size: cover;
   -moz-background-size: cover;
