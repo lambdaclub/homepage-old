@@ -106,7 +106,7 @@ a {
         -moz-transition: background .3s ease-in-out;
         transition: background .3s ease-in-out;
         &:hover {
-          color: rgba($text, 0.8);
+          color: rgba($text-mirror, 0.8);
           outline: none;
           background-color: transparent;
         }
