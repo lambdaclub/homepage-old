@@ -6,5 +6,51 @@
     max-width: 20px;
 }
 body {
-    padding-top: 70px;
+    padding-top: 100px;
+}
+
+.hexagon {
+  display: inline-block;
+	width: 400px;
+	height: 220px;
+	background: #eee;
+	position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+.hexagon:before {
+	content: "";
+	position: absolute;
+	top: -100px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 100px solid #eee;
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -100px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-top: 100px solid #eee;
+}
+
+.hexagon.logo {
+  margin-left: 2em;
+}
+
+.hexagon.report1 {
+  margin-top: 132px;
+  margin-left: 200px;
+}
+
+.hexagon.report2 {
+  margin-top: 132px;
+  margin-left: 400px;
 }
