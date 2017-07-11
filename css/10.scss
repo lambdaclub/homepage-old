@@ -416,7 +416,20 @@ ul.banner-social-buttons {
 }
 
 .owl-stage-outer {
-  max-height: 750px;
+  max-height: 200px;
+
+  @media (min-width: 480px) {
+    max-height: 350px;
+  }
+  @media (min-width: 768px) {
+    max-height: 450px;
+  }
+  @media (min-width: 992px) {
+    max-height: 600px;
+  }
+  @media (min-width: 1220px) {
+    max-height: 750px;
+  }
 }
 
 .owl-theme .owl-nav [class*=owl-] {
@@ -452,6 +465,9 @@ ul.banner-social-buttons {
     @media screen and (max-width: 568px) {
       font-size: 0.9em;
     }
+  }
+  iframe {
+    max-width: 854px;
   }
 }
 
