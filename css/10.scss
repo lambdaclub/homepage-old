@@ -395,54 +395,36 @@ ul.banner-social-buttons {
   }
 }
 
+#photo {
+  h2 {
+    text-transform: inherit;
+  }
+}
+
 .photo {
   margin: 0 auto;
   padding-bottom: 20px;
-  width: 60%;
+  box-sizing: border-box;
 
-  @media (max-width: 768px) {
-    width: 90%;
-    box-sizing: border-box;
-  }
   @media (max-width: 568px) {
-    width: 90%;
     text-align: center;
     h3 {
       padding-left: 0em;
       font-size: 0.7em;
     }
   }
-  ul.photo-lambda10 {
-    display: inline-block;
-    padding-left: 0px;
-    margin: 0 auto;
+}
 
-    @media (max-width: 568px) {
-      padding-left: 0em;
-    }
-    li {
-      display: inline-block;
-      list-style-type: none;
-      .foc {
-        width: 150px;
-        cursor:pointer;
-        display:inline;
-      }
-      .foc:focus {
-        width: auto;
-        z-index:100;
-        @media (max-width: 768px) {
-          width: 500px;
-        }
-        @media screen and (max-width: 568px) {
-          width: 300px;
-        }
-        @media screen and (max-width: 568px) {
-          width: 200px;
-        }
-      }
-    }
-  }
+.owl-stage-outer {
+  max-height: 750px;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+  background-color: #000000;
+}
+
+#video {
+  padding-top: 30px;
 }
 
 .video {
@@ -461,6 +443,8 @@ ul.banner-social-buttons {
 
   h3 {
     color: #333333;
+    margin-top: 30px;
+    text-transform: inherit;
 
     @media (max-width: 768px) {
       font-size: 1em;
