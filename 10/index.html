@@ -31,13 +31,12 @@ title: λClub#10 - DneprLambdaClub
         <li>
           <a class="page-scroll" href="#place">Место</a>
         </li>
-        <!--
         <li>
           <a class="page-scroll" href="#photo">Фото</a>
         </li>
         <li>
           <a class="page-scroll" href="#video">Видео</a>
-        </li>-->
+        </li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->
@@ -104,6 +103,30 @@ title: λClub#10 - DneprLambdaClub
   <div class="overlay" onClick="style.pointerEvents='none'"></div>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10584.440322075267!2d35.037707069848615!3d48.45441739754524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x817b2a0e494fe48d!2sI+Coworking+Hub!5e0!3m2!1sru!2sua!4v1497013215359" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
+
+<!-- Photo Section -->
+<section id="photo" class="container content-section text-center photo">
+  <h2>Фото с λClub#10</h2>
+  <div class="owl-carousel owl-theme">
+    {% for photo in site.data.ten_photos %}
+      <img src="https://vault8.io/{{ photo.image_uid }}" alt="{{ photo.title }}">
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Video Section -->
+<section id="video" class="container content-section text-center">
+  <div class="video">
+    <h3>Видео с докладов λClub#10</h3>
+    <p>
+      <iframe width="100%" height="480" src="https://www.youtube.com/embed/miy5FfNLwKU" frameborder="0" allowfullscreen></iframe>
+    </p>
+    <p>
+      <iframe width="100%" height="480" src="https://www.youtube.com/embed/t5j7uEIWMOk" frameborder="0" allowfullscreen></iframe>
+    </p>
+  </div>
+</section>
+
 
 <!-- Partners -->
 <div id="partners">
