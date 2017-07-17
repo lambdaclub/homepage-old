@@ -207,3 +207,14 @@ a :hover {
 
   }
 }
+
+.wallpers {
+  h1 {
+    color: #000;
+
+    &::after {
+      content: '';
+      border-bottom: 1px solid #000;
+    }
+  }
+}
