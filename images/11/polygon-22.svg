@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="275px" height="317px" viewBox="0 0 275 317" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Polygon 22 + λ 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="75.6489451%" y1="14.6096215%" x2="26.2804885%" y2="86.8173304%" id="linearGradient-1">
+            <stop stop-color="#FF9800" offset="0%"></stop>
+            <stop stop-color="#A34200" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-896.000000, -140.000000)" fill="url(#linearGradient-1)">
+            <g id="Polygon-22-+-λ-2" sketch:type="MSLayerGroup" transform="translate(896.000000, 140.000000)">
+                <polygon id="Polygon-22" sketch:type="MSShapeGroup" points="137.5 0 274.765026 79.25 274.765026 237.75 137.5 317 0.2349735 237.75 0.2349735 79.25 "></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

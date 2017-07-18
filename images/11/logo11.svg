@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="275px" height="317px" viewBox="0 0 275 317" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Polygon 22 + λ 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-131.000000, -1393.000000)">
+            <g id="Polygon-22-+-λ-3" sketch:type="MSLayerGroup" transform="translate(131.000000, 1393.000000)">
+                <polygon id="Polygon-23" fill="#000000" sketch:type="MSShapeGroup" points="137.5 0.150882507 274.634358 79.3254413 274.634358 237.674559 137.5 316.849117 0.365641585 237.674559 0.365641585 79.3254413 "></polygon>
+                <g id="λ-2-+-Oval-1" transform="translate(38.000000, 58.000000)" fill="#C95C00">
+                    <text id="λ-2" sketch:type="MSTextLayer" font-family="Arial" font-size="179" font-weight="bold">
+                        <tspan x="0" y="162">λ</tspan>
+                    </text>
+                    <path d="M97,70 C108.045695,70 117,61.045695 117,50 C117,38.954305 108.045695,30 97,30 C85.954305,30 77,38.954305 77,50 C77,61.045695 85.954305,70 97,70 Z" id="Oval-1" sketch:type="MSShapeGroup"></path>
+                </g>
+                <text id="II" sketch:type="MSTextLayer" font-family="Arial" font-size="145" font-weight="bold" fill="#C95C00">
+                    <tspan x="158" y="219">II</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
