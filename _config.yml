@@ -23,8 +23,8 @@ description: >
 baseurl: ""
 url: "http://lambdaclub.net"
 name: "lambdaclub.net"
-# gems:
-#   - jekyll-redirect-from
+gems:
+  - jekyll-redirect-from
 
 # Build settings
 markdown: kramdown
