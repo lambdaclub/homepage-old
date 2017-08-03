@@ -43,6 +43,9 @@ body {
       -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
           transform: rotate3d(0,0,1,-60deg) skewY(30deg);
 }
+.hex .hexLinkContent.hexName {
+  bottom: 5%;
+}
 .hexIn * {
   visibility: visible;
   outline: 1px solid transparent; /* fix for jagged edges in FF on hover transition */
@@ -91,8 +94,11 @@ body {
   -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
           transition:          transform .2s ease-out, opacity .3s ease-out;
 
+  text-shadow: 0px 0px 7px #000000;
+
   &.inverse {
     color: #000000;
+    text-shadow: 0px 0px 7px #ffffff;
   }
 }
 
