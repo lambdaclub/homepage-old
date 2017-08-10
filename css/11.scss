@@ -242,3 +242,21 @@ body {
     }
   }
 }
+
+.video {
+  margin: 50px auto 90px;
+
+  iframe {
+    width: 320px;
+    height: 200px;
+
+    @media (min-width: 580px) {
+      width: 560px;
+      height: 315px;
+    }
+    @media (min-width: 1200px) {
+      width: 1120px;
+      height: 630px;
+    }
+  }
+}
