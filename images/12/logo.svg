@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="286px" height="318px" viewBox="0 0 286 318" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Polygon 22 + λ 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="75.6489451%" y1="14.6096215%" x2="26.2804885%" y2="86.8173304%" id="linearGradient-1">
+            <stop stop-color="#90D3EA" offset="0%"></stop>
+            <stop stop-color="#C3E7F4" offset="46.2931191%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="118 0 235.79835 68 235.79835 204 118 272 0.201649986 204 0.201649986 68"></polygon>
+        <filter x="-15.7%" y="-12.9%" width="134.0%" height="129.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="3" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="logos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="a" transform="translate(-35.000000, -21.000000)">
+            <g id="Polygon-22-+-λ-4" transform="translate(57.000000, 39.000000)">
+                <g id="Polygon-22">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="λ-2-+-Oval-1" transform="translate(72.945455, 82.372240)" stroke="#4E53FB" stroke-width="2" fill="#4E53FB">
+                    <path d="M84.96,34.3217666 C94.4392146,34.3217666 102.123636,26.6385774 102.123636,17.1608833 C102.123636,7.68318915 94.4392146,0 84.96,0 C75.4807854,0 67.7963636,7.68318915 67.7963636,17.1608833 C67.7963636,26.6385774 75.4807854,34.3217666 84.96,34.3217666 Z" id="Oval-1"></path>
+                    <path d="M82.9997585,111.545741 L61.2476989,111.545741 L47.5213991,75.3981171 C45.7712247,70.8983904 43.7460532,64.8988447 41.4458239,57.3993001 C39.4956295,63.7989115 37.5204622,69.6734666 35.5202628,75.0231418 L21.8689702,111.545741 L0.266924716,111.545741 L30.8698224,31.975971 L19.2437216,1.60296727 L40.0206889,1.60296727 L51.9468182,31.975971 L82.9997585,111.545741 Z" id="λ-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
