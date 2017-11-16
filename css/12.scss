@@ -35,7 +35,7 @@ main {
   transform: skewY(12deg);
 
   @media screen and (min-width: 768px) {
-    padding: 90px 10px;
+    padding: 9% 1% 4%;
   }
 }
 
@@ -45,12 +45,16 @@ header {
   padding: 15px 0;
   margin: 0 auto;
   background-color: #4553ff;
+  min-height: 50px;
 
   a {
     display: block;
     width: 50px;
     height: 50px;
     margin-left: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 2;
 
     @media screen and (min-width: 568px) {
       width: 90px;
@@ -109,7 +113,6 @@ header {
   .check-in {
     color: $body-color;
     font-size: 24px;
-    padding-right: 2.5rem;
     margin-bottom: 0;
     @media (max-width: 1240px) {
       font-size: 18px;
@@ -128,19 +131,22 @@ header {
       -webkit-flex-flow: column wrap;
       flex-flow: column wrap;
       padding-right: 0.5rem;
-      & a {
+      & + a {
         margin: 0.5rem;
       }
     }
-    a {
-      display: inline-block;
+    & + a {
+      display: block;
+      width: 200px;
+      margin: 0 auto;
       color: $blue;
       background-color: rgba(0,255,206,.85);
       text-transform: uppercase;
-      padding: 0.3rem 1rem;
+      padding: 0.6rem 1rem;
       font-size: 20px;
       border-radius: 9px;
       text-align: center;
+      margin-top: 20px;
       &:hover, &:focus {
         -webkit-box-shadow: inset 0px 0px 6px 0px rgba(4,90,250, 19);
         -moz-box-shadow: inset 0px 0px 6px 0px rgba(4,90,250, 19);
@@ -242,7 +248,7 @@ span.time {
   padding: 0 15px;
   margin: 0 auto;
   width: 100%;
-  max-width: 760px;
+  max-width: 815px;
   box-sizing: border-box;
   transform: skewY(12deg);
   margin-top: -11%;
@@ -281,7 +287,7 @@ span.time {
       margin-top: 15px;
       @media (min-width: 768px) {
         position: absolute;
-        top: -78px;
+        top: -80px;
         left: 0;
       }
       @media (max-width: 767px) {
@@ -328,8 +334,13 @@ span.time {
     }
     &-description {
       width: 100%;
+
       @media (max-width: 768px) {
         font-size: 1em;
+      }
+      p {
+        letter-spacing: 0.7px;
+        line-height: 20px;
       }
     }
   }
@@ -396,7 +407,7 @@ ul {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 1rem 0;
   text-align: center;
   display: -webkit-flex;
   display: -webkit-box;
@@ -406,13 +417,7 @@ ul {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  @media (max-width: 768px) {
-    -webkit-box-orient: vertical;
-    -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
-    align-items: center;
-    padding: 2rem 0 0 0;
-  }
+
   &-inner {
     width: 100%;
     border-top: 1px dotted;
@@ -429,9 +434,7 @@ ul {
   -ms-flex:1;
   flex: 1;
   font-family: Arial, Helvetica, sans-serif;
-  @media (max-width: 768px) {
-    margin-bottom: 2rem;
-  }
+
   a {
     color: $body-color;
     text-decoration: none;
@@ -448,22 +451,25 @@ ul {
   color: #d8d9d4;
 }
 
-.daxx img {
+.pull-left img,
+.pull-right img {
   display: block;
-  width: 150px;
+  width: 90px;
   height: auto;
   margin: auto;
 
-  @media (min-width: 768px) and (max-width: 992px) {
-    width: 110px;
+  @media (max-width: 480px) {
+    width: 70px;
   }
 }
 
-.webinerds img {
-  width: 202px;
-  margin-top: -7px;
+.pull-center img {
+  display: block;
+  width: 100px;
+  height: auto;
+  margin: auto;
 
-  @media (min-width: 768px) and (max-width: 992px) {
-    width: 170px;
+  @media (max-width: 480px) {
+    width: 78px;
   }
 }
