@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lambdaclub Events Calendar//lambdaclub.net//
+BEGIN:VTIMEZONE
+TZID:Europe/Kiev
+BEGIN:STANDARD
+DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20171128T210000
+DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20171128T183000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:λ#12 - Двенадцатая встреча лямбдаклуба
+DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20171128T183000
+DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20171128T210000
+DTSTAMP;VALUE=DATE-TIME:20171128T095800Z
+UID:6.lambdaclub.net
+DESCRIPTION:Двенадцатая встреча
+  лямбдаклуба в Днепре\, на которой
+  мы будем говорить о аутсорсе и лирике стартапов.
+
+LOCATION:Днепр\, ул. Чернышевского\, 37\, «I Covorking Hub».
+URL:http://lambdaclub.net/12
+END:VEVENT
+END:VCALENDAR
