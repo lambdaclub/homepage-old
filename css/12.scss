@@ -451,19 +451,7 @@ ul {
   color: #d8d9d4;
 }
 
-.pull-left img,
-.pull-right img {
-  display: block;
-  width: 90px;
-  height: auto;
-  margin: auto;
-
-  @media (max-width: 480px) {
-    width: 70px;
-  }
-}
-
-.pull-center img {
+.partners img {
   display: block;
   width: 100px;
   height: auto;
