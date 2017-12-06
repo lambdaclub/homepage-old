@@ -5,14 +5,26 @@
     {% include head.html %}
     {% include opengraphmeta.html %}
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <link rel="stylesheet" href="{{ "/css/12.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/vendor/css/owl.carousel.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/vendor/css/owl.theme.default.min.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/animate.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/12.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
+    <!-- jQuery -->
+    <script src="{{ "/vendor/js/jquery.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Plugin Owl Carousel-->
+    <script src="{{ "/vendor/js/owl.carousel.min.js" | prepend: site.baseurl }}"></script>
+
     {{ content }}
+    <script src="{{ "/vendor/js/owl.carousel.js" | prepend: site.baseurl }}"></script>
   </body>
 </html>
