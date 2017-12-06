@@ -461,3 +461,45 @@ ul {
     width: 78px;
   }
 }
+
+#photo {
+  h2 {
+    text-transform: inherit;
+    text-align: center;
+  }
+}
+
+.photo {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+
+  @media (max-width: 568px) {
+    text-align: center;
+    h3 {
+      padding-left: 0em;
+      font-size: 0.7em;
+    }
+  }
+}
+
+.owl-stage-outer {
+  max-height: 200px;
+
+  @media (min-width: 480px) {
+    max-height: 350px;
+  }
+  @media (min-width: 768px) {
+    max-height: 450px;
+  }
+  @media (min-width: 992px) {
+    max-height: 600px;
+  }
+  @media (min-width: 1220px) {
+    max-height: 750px;
+  }
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+  background-color: #000000;
+}

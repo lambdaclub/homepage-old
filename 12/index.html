@@ -56,6 +56,15 @@
     </div>
   </div>
 </div>
+<!-- Photo Section -->
+<section id="photo" class="container content-section photo">
+  <h2>Фото с λClub#12</h2>
+  <div class="owl-carousel owl-theme">
+    {% for photo in site.data.twelve_photos %}
+      <img src="https://vault8.io/{{ photo.image_uid }}" alt="{{ photo.title }}">
+    {% endfor %}
+  </div>
+</section>
 <div class="partners-inner">
   <div class="partners">
     <div class="pull-left">
