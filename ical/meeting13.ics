@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lambdaclub Events Calendar//lambdaclub.net//
+BEGIN:VTIMEZONE
+TZID:Europe/Kiev
+BEGIN:STANDARD
+DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20171227T210000
+DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20171227T183000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:λ#13 - Тринадцатая встреча лямбдаклуба
+DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20171227T183000
+DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20171227T210000
+DTSTAMP;VALUE=DATE-TIME:20171227T095800Z
+UID:6.lambdaclub.net
+DESCRIPTION:Тринадцатая встреча
+  лямбдаклуба в Киеве\, на которой
+  мы будем говорить о нейросетях.
+
+LOCATION:Киев\, ул. Паньковская \, 14-а\, офис «WIX».
+URL:http://lambdaclub.net/13
+END:VEVENT
+END:VCALENDAR
