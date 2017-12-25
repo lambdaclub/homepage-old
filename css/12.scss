@@ -399,6 +399,13 @@ ul {
       &:focus {
         color: black;
       }
+      &.active {
+        color: #8c28be;
+
+        &:hover {
+          color: #a953d4;
+        }
+      }
     }
   }
 }
