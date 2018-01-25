@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include metrika.html %}
+    {% include head.html %}
+    {% include opengraphmeta.html %}
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext">
+    <link rel="stylesheet" href="{{ "/css/14.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="{{ "/js/14/css-doodle.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/14/doodle.js" | prepend: site.baseurl }}"></script>
+  </head>
+
+  <body>
+
+    {{ content }}
+  </body>
+</html>
