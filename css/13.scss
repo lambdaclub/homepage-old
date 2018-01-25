@@ -448,29 +448,19 @@ ul {
 
 #video {
   padding: 30px 0;
-
-  iframe {
-    width: 560px;
-
-    @media screen and (max-width: 568px) {
-      width: 320px;
-      height: auto;
-    }
-  }
 }
 
 .video {
   border-top: 1px solid #7a7875;
   text-align: center;
 
-  video {
-    @media (max-width: 768px) {
-      width: 60%;
-      height: auto;
-    }
-    @media screen and (max-width: 568px) {
-      width: 80%;
-      height: auto;
+  iframe {
+    width: 320px;
+    height: 210px;
+
+    @media screen and (min-width: 568px) {
+      width: 560px;
+      height: 315px;
     }
   }
 
