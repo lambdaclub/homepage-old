@@ -3,7 +3,7 @@
 
 $body-color: rgb(40, 53, 83);
 $text-font: rgba(254, 252, 253, 1);
-$white: #ffffffff;
+$white: #ffffff;
 $blue: #045afa;
 
 
@@ -88,7 +88,7 @@ header {
 
 .information {
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 0 0;
   text-align: center;
   background-color: $white;
 
@@ -399,5 +399,92 @@ ul {
 
   @media (max-width: 480px) {
     width: 78px;
+  }
+}
+
+#photo {
+  h2 {
+    text-transform: inherit;
+    text-align: center;
+  }
+}
+
+.photo {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+
+  @media (max-width: 568px) {
+    text-align: center;
+    h3 {
+      padding-left: 0em;
+      font-size: 0.7em;
+    }
+  }
+}
+
+.owl-stage-outer {
+  max-height: 200px;
+
+  @media (min-width: 480px) {
+    max-height: 350px;
+  }
+  @media (min-width: 768px) {
+    max-height: 450px;
+  }
+  @media (min-width: 992px) {
+    max-height: 600px;
+  }
+  @media (min-width: 1220px) {
+    max-height: 750px;
+  }
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+  background-color: #000000;
+}
+
+.owl-carousel .owl-item {
+  img {
+    max-height: 100vh;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+#video {
+  padding: 30px 0;
+}
+
+.video {
+  border-top: 1px solid #7a7875;
+  text-align: center;
+
+  video {
+    @media (max-width: 768px) {
+      width: 60%;
+      height: auto;
+    }
+    @media screen and (max-width: 568px) {
+      width: 80%;
+      height: auto;
+    }
+  }
+
+  h3 {
+    text-align: center;
+    margin-top: 30px;
+    text-transform: inherit;
+
+    @media (max-width: 768px) {
+      font-size: 1em;
+    }
+    @media screen and (max-width: 568px) {
+      font-size: 0.9em;
+    }
+  }
+  video {
+    max-width: 854px;
+    margin: 0 auto;
   }
 }
