@@ -1,18 +1,18 @@
 ---
 ---
 
-$body-color: rgb(40, 53, 83);
+$body-color: #20081b;
 $text-font: rgba(254, 252, 253, 1);
 $white: #ffffff;
 $blue: #045afa;
+$bg-gradient: linear-gradient(to top, hsla(294.38, 85.71%, 21.96%, 0.39) 0%, hsla(294.49, 85.78%, 21.88%, 0.395) 9.9%, hsla(294.87, 85.99%, 21.61%, 0.411) 18.9%, hsla(295.46, 86.32%, 21.2%, 0.436) 26.4%, hsla(296.2, 86.74%, 20.71%, 0.466) 32.5%, hsla(297.03, 87.22%, 20.17%, 0.498) 37.7%, hsla(297.92, 87.73%, 19.62%, 0.531) 42.4%, hsla(298.87, 88.29%, 19.07%, 0.565) 47%, hsla(299.84, 88.87%, 18.52%, 0.599) 51.7%, hsla(300.84, 89.61%, 18.2%, 0.631) 56.8%, hsla(301.8, 90.36%, 17.94%, 0.663) 62.4%, hsla(302.71, 91.08%, 17.7%, 0.692) 68.7%, hsla(303.54, 91.75%, 17.49%, 0.718) 75.9%, hsla(304.25, 92.33%, 17.3%, 0.741) 83.9%, hsla(304.83, 92.81%, 17.15%, 0.759) 92.6%, hsla(305.19, 93.1%, 17.06%, 0.77) 100%);
 
 
 body {
-  overflow-x: hidden;
   margin: 0px;
   font-family: "Roboto Condensed", sans-serif;
   color: $text-font;
-  background: #0a0c27;
+  background: $body-color;
 }
 
 main {
@@ -24,17 +24,15 @@ main {
   width: 100%;
 }
 .main-section {
-  overflow: hidden;
   width: 100%;
   height: 100%;
-  min-height: 1200px;
 }
 
 header {
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  height: 50px;
+  height: 30px;
 
   a {
     display: block;
@@ -99,9 +97,10 @@ header {
   max-width: 450px;
   position: relative;
   border-radius: 10px;
+  margin-bottom: 30px;
 
   @media screen and (min-width: 569px) {
-    padding: 4.2rem;
+    padding: 1em 4.2rem;
     border-radius: 0;
     --polygon: polygon( 0 0, calc(100% - 70px) 0, 100% 70px, 100% 100%, 0 100% );
     -webkit-clip-path: var(--polygon);
@@ -245,7 +244,7 @@ span.time {
   }
 
   &-inner {
-    margin: 0.5rem auto 1.5rem;
+    margin: 0 auto 0.5rem;
     position: relative;
 
     &:first-child {
@@ -255,7 +254,7 @@ span.time {
     }
     img {
       display: block;
-      width: 250px;
+      width: 230px;
       height: auto;
       -webkit-filter: brightness(1.15);
       filter: brightness(1.15);
@@ -385,7 +384,7 @@ ul {
 
   &-inner {
     width: 100%;
-    background-color: #ffff0038;
+    background: $bg-gradient;
   }
 }
 
@@ -426,3 +425,15 @@ ul {
     width: 78px;
   }
 }
+
+canvas{
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: $body-color;
+  }
