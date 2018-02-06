@@ -2,28 +2,9 @@
  layout: lambdaclub14
 ---
 
+<div id="particles-js"></div>
 <section class="main-section">
-  <css-doodle>
-    :doodle {
-      @grid: 7 / 100vmax;
-      background: #0a0c27;
-    }
-    --n: calc(
-        @abs(@abs(@row() - 6)
-      + @abs(@col() - 6) - 11) / 11
-    );
 
-    @shape: hexagon;
-    background: hsla(
-      calc(var(--n) * 360 + 120), 60%, 68%,
-      var(--n)
-    );
-    transform:
-      scale(@rand(.2, 1.5))
-      translate(
-        @rand(-50%, 50%), @rand(-50%, 50%)
-      );
-  </css-doodle>
   <section class="content-section">
     <header>
       <a href="/" class="logo">
@@ -60,7 +41,7 @@
       </div>
     </main>
     <div class="information">
-      <p class="check-in">Стоимость билета: 100₴ (50₴ членам клуба)</p>
+      <p class="check-in">Стоимость билета: 100₴ </br> (50₴ членам клуба)</p>
       <a href="hhttps://goo.gl/BTzby3">Регистрация обязательна</a>
       <a href="https://goo.gl/xEivAQ" class="location">
         <img src="/images/12/location.svg" alt="location">
@@ -72,67 +53,67 @@
         <span class="time">18:30</span>
       </a>
     </div>
+    <div class="partners-inner">
+      <div class="partners">
+        <div class="pull-left">
+          <a href="http://lambdaclub.net/">
+            <img src="/images/12/lambda.png" alt="Lambdaclub.net">
+          </a>
+        </div>
+        <div class="pull-center">
+          <a href="https://riter.co/">
+            <img src="/images/14/riter.png" alt="Riter">
+          </a>
+        </div>
+        <div class="pull-right">
+          <a href="https://cimon.io/">
+            <img src="/images/12/cimon.png" alt="Cimon.io">
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <ul>
+        <li>
+          <a href="/wallpers">λОбои</a>
+        </li>
+        <li>
+          <a href="/1">λ #1</a>
+        </li>
+        <li>
+          <a href="/2">λ #2</a>
+        </li>
+        <li>
+          <a href="/3">λ #3</a>
+        </li>
+        <li>
+          <a href="/4">λ #4</a>
+        </li>
+        <li>
+          <a href="/5">λ #5</a>
+        </li>
+        <li>
+          <a href="/7">λ #7</a>
+        </li>
+        <li>
+          <a href="/8">λ #8</a>
+        </li>
+        <li>
+          <a href="/9">λ #9</a>
+        </li>
+        <li>
+          <a href="/10">λ #10</a>
+        </li>
+        <li>
+          <a href="/11">λ #11</a>
+        </li>
+        <li>
+          <a href="/12">λ #12</a>
+        </li>
+        <li>
+          <a href="/13">λ #13</a>
+        </li>
+      </ul>
+    </footer>
   </section>
 </section>
-<div class="partners-inner">
-  <div class="partners">
-    <div class="pull-left">
-      <a href="http://lambdaclub.net/">
-        <img src="/images/12/lambda.png" alt="Lambdaclub.net">
-      </a>
-    </div>
-    <div class="pull-center">
-      <a href="https://riter.co/">
-        <img src="/images/14/riter.png" alt="Riter">
-      </a>
-    </div>
-    <div class="pull-right">
-      <a href="https://cimon.io/">
-        <img src="/images/12/cimon.png" alt="Cimon.io">
-      </a>
-    </div>
-  </div>
-</div>
-<footer>
-  <ul>
-    <li>
-      <a href="/wallpers">λОбои</a>
-    </li>
-    <li>
-      <a href="/1">λ #1</a>
-    </li>
-    <li>
-      <a href="/2">λ #2</a>
-    </li>
-    <li>
-      <a href="/3">λ #3</a>
-    </li>
-    <li>
-      <a href="/4">λ #4</a>
-    </li>
-    <li>
-      <a href="/5">λ #5</a>
-    </li>
-    <li>
-      <a href="/7">λ #7</a>
-    </li>
-    <li>
-      <a href="/8">λ #8</a>
-    </li>
-    <li>
-      <a href="/9">λ #9</a>
-    </li>
-    <li>
-      <a href="/10">λ #10</a>
-    </li>
-    <li>
-      <a href="/11">λ #11</a>
-    </li>
-    <li>
-      <a href="/12">λ #12</a>
-    </li>
-    <li>
-      <a href="/13">λ #13</a>
-    </li>
-  </ul>
-</footer>
