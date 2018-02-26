@@ -1,26 +1,3 @@
-// particlesJS("particles-js",
-//   {"particles":
-//     {"number":
-//       {
-//         "value":60,
-//         "density":
-//           {
-//             "enable":true,
-//             "value_area":631.3181133058181}
-//           },
-//         "color":
-//           {"value":"#7d1959"},
-//         "shape":{"type":"edge","stroke":{"width":1,"color":"#111dde"},
-//         "polygon":{"nb_sides":3},"image":{"src":"images/14/pic.svg","width":100,"height":100}},
-//         "opacity":{"value":0.49716301422833176,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},
-//         "size":{"value":5.7,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},
-//         "line_linked":{"enable":true,"distance":160.3412060865523,"color":"#ec2a3b","opacity":0.4008530152163807,"width":1},
-//         "move":{"enable":true,"speed":3,"direction":"none","random":true,"straight":false,"out_mode":"bounce","bounce":false,"attract":{"enable":true,"rotateX":1763.753266952075,"rotateY":1603.4120608655228}}},
-//         "interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"grab"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":0.156297557645007}},
-//         "bubble":{"distance":400,"size":40,"duration":2,"opacity":0.09744926547616141,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},
-//         "retina_detect":true});
-
-
 particlesJS('particles-js',
 
   {
@@ -132,3 +109,14 @@ particlesJS('particles-js',
   }
 
 );
+
+$(document).ready(function(){
+  $('.arrow').on('click',function (e) {
+    e.preventDefault();
+    var target = this.hash;
+    var $target = $(target);
+    $('html, body').stop().animate({
+         'scrollTop': $target.offset().top
+    }, 900, 'swing');
+  });
+});
