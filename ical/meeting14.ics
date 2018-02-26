@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lambdaclub Events Calendar//lambdaclub.net//
+BEGIN:VTIMEZONE
+TZID:Europe/Kiev
+BEGIN:STANDARD
+DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20180315T210000
+DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20180315T183000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:λ#14 - Четырнадцатая встреча лямбдаклуба
+DTSTART;TZID=Europe/Kiev;VALUE=DATE-TIME:20180315T183000
+DTEND;TZID=Europe/Kiev;VALUE=DATE-TIME:20180315T210000
+DTSTAMP;VALUE=DATE-TIME:20180315T095800Z
+UID:6.lambdaclub.net
+DESCRIPTION:Четырнадцатая встреча
+  лямбдаклуба в Днепре\, на которой
+  мы будем говорить о «JavaScript» & «Babel».
+
+  LOCATION:Днепр\, ул. Чернышевского\, 37\, «I Coworking Hub».
+  URL:http://lambdaclub.net/14
+END:VEVENT
+END:VCALENDAR

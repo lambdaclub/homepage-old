@@ -3,117 +3,202 @@
 ---
 
 <div id="particles-js"></div>
-<section class="main-section">
-
-  <section class="content-section">
-    <header>
-      <a href="/" class="logo">
-        <img src="/images/13/logo2.png" alt="Lambdaclub">
-      </a>
-    </header>
-    <main>
-      <div class="wrapper">
-        <div class="header">
-          <h1 class="logo-name">λCLUB #14</h1>
-          <p>Четырнадцатая встреча &#171;Лямбда-клуба&#187; в Днепре</p>
-          <p>&#171;&#187;</p>
-        </div>
+<section class="section-main">
+  <section class="section-info">
+    <div class="wrapper">
+      <div class="header">
+        <h1>
+          <a href="/" class="logo logo-name">
+            <svg class="logo-img">
+              <defs>
+                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0" stop-color="rgb(175,95,228)" />
+                  <stop offset="100%" stop-color="rgb(91,239,143)" />
+                </linearGradient>
+                <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0" stop-color="rgb(91,239,143)" />
+                  <stop offset="100%" stop-color="rgb(175,95,228)" />
+                </linearGradient>
+                <text id="text" x="45vw" y="-5vw" text-anchor="middle">λCLUB #14</text>
+                <clipPath id="clipPath4">
+                  <use xlink:href="#text"/>
+                </clipPath>
+              </defs>
+              <g  style="clip-path: url(#clipPath4);transform: translate(0,16vw);">
+                <rect id="first-rect" x=".5vw" y="-15.5vw" width="88vw" height="16vw" fill="url(#gradient1)"></rect>
+                <rect id="second-rect" x="-87.5vw" y="-15.5vw" width="88vw" height="16vw" fill="url(#gradient2)"></rect>
+                <rect id="third-rect" x=".5vw" y="-15.5vw" width="88vw" height="16vw" fill="url(#gradient2)"></rect>
+                <animate
+                  xlink:href="#first-rect"
+                  attributeName="x"
+                  from="-87.5vw"
+                  to="88vw"
+                  dur="5s"
+                  fill="freeze"
+                  id="rect1-anim"
+                  repeatCount="indefinite" />
+                <animate
+                  xlink:href="#second-rect"
+                  attributeName="x"
+                  from="-87.5vw"
+                  to="88vw"
+                  dur="5s"
+                  fill="freeze"
+                  begin="rect1-anim.begin + 2.5s"
+                  id="rect2-anim"
+                  repeatCount="indefinite" />
+                <animate
+                  xlink:href="#third-rect"
+                  attributeName="x"
+                  from=".5vw"
+                  to="88vw"
+                  dur="2.5s"
+                  fill="freeze"
+                  id="rect3-anim" />
+              </g>
+            </svg>
+          </a>
+        </h1>
       </div>
+      <div class="information">
+        <a href="/ical/meeting14.ics" class="calendar">
+          <span>15</span>
+          <span>Марта в</span>
+          <span class="time">18:30</span>
+        </a>
+        <a href="https://goo.gl/xEivAQ" class="location">
+          <img src="/images/12/location.svg" alt="location">
+          <span>Днепр, ул. Чернышевского 37, «I Coworking Hub»</span>
+        </a>
+        <p class="check-in">Стоимость билета: 100₴ </br> (50₴ членам клуба)</p>
+        <a href="https://goo.gl/BTzby3">Регистрация обязательна</a>
+      </div>
+      <a class="arrow" role="button" href="#content">
+        <svg class="arrow-down">
+          <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
+          <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "/>
+          <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
+        </svg>
+      </a>
+    </div>
+    <main class="section-content" id="content">
       <div class="reports">
+        <h2>
+          Добро пожаловать на четырнадцатую встречу &#171;Лямбда-клуба&#187; в Днепре!
+        </h2>
         <div class="reports-inner">
           <img src="/images/14/alexey2.png" alt="Alexey Konovalenko">
           <div class="reports-block">
-            <h3>
-              Алексей Коваленко
-            </h3>
-            <h3 class="topic">Фронт-энд художник «Wix»</h3>
+            <p>
+              Гостем нашего вечера будет фронт-энд художник компании
+              <a class="reports-link" href="https://wix.com/">
+                «Wix»,
+              </a> Алексей Коваленко.
+            </p>
           </div>
         </div>
         <div class="reports-inner">
-          <img src="/images/user.png" alt="">
           <div class="reports-block">
-            <h3>
-              Второй докладчик уточняется
-            </h3>
-            <h3 class="topic"></h3>
+            <p>
+              Говорить будем об одном из наиболее востребованных и популярных языков программирования.</br>
+              Да-да, речь пойдет именно о «JavaScript».</br>
+              Алексей поведает нам о транспайлере
+              <a class="reports-link" href="https://babeljs.io/">
+                «Babel»
+              </a> - фактически неотъемлемой части JS в современном мире.
+            </p>
+          </div>
+          <img src="/images/14/babel.png" alt="BabelJs">
+        </div>
+        <div class="reports-inner">
+          <div>
+            <p>
+              И в качестве бонуса, Ленионид Шевцов, разработчик компании
+              <a class="reports-link" href="https://railsware.com/">
+                «Railsware»,
+              </a></br>
+              поделится с нами впечатлениями о прошедшей конференции
+              <a class="reports-link" href="http://www.lambdadays.org/lambdadays2018">
+                «Lambda Days 2018».
+              </a>
+              </br>
+              До встречи!!!
+            </p>
           </div>
         </div>
       </div>
-    </main>
-    <div class="information">
-      <p class="check-in">Стоимость билета: 100₴ </br> (50₴ членам клуба)</p>
-      <a href="hhttps://goo.gl/BTzby3">Регистрация обязательна</a>
-      <a href="https://goo.gl/xEivAQ" class="location">
-        <img src="/images/12/location.svg" alt="location">
-        <span>Днепр, ул. Чернышевского 37, «I Coworking Hub»</span>
-      </a>
-      <a href="/ical/meeting13.ics" class="calendar">
-        <span>20</span>
-        <span>Февраля в</span>
-        <span class="time">18:30</span>
-      </a>
-    </div>
-    <div class="partners-inner">
-      <div class="partners">
-        <div class="pull-left">
-          <a href="http://lambdaclub.net/">
-            <img src="/images/12/lambda.png" alt="Lambdaclub.net">
-          </a>
-        </div>
-        <div class="pull-center">
-          <a href="https://riter.co/">
-            <img src="/images/14/riter.png" alt="Riter">
-          </a>
-        </div>
-        <div class="pull-right">
-          <a href="https://cimon.io/">
-            <img src="/images/12/cimon.png" alt="Cimon.io">
-          </a>
+      <div class="partners-inner">
+        <div class="partners">
+          <div class="pull-left">
+            <a class="webinerds" href="https://webinerds.com/">
+              <img src="/images/sponsors/webinerds.png" alt="WebiNerds">
+            </a>
+          </div>
+          <div class="pull-center">
+            <a href="https://railsware.com/">
+              <img src="/images/sponsors/railsware.png" alt="Railsware.com">
+            </a>
+          </div>
+          <div class="pull-center">
+            <a href="http://lambdaclub.net/">
+              <img src="/images/sponsors/lambda.png" alt="Lambdaclub.net">
+            </a>
+          </div>
+          <div class="pull-center">
+            <a href="https://riter.co/">
+              <img src="/images/sponsors/riter.png" alt="Riter">
+            </a>
+          </div>
+          <div class="pull-right">
+            <a href="https://cimon.io/">
+              <img src="/images/sponsors/cimon.png" alt="Cimon.io">
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-    <footer>
-      <ul>
-        <li>
-          <a href="/wallpers">λОбои</a>
-        </li>
-        <li>
-          <a href="/1">λ #1</a>
-        </li>
-        <li>
-          <a href="/2">λ #2</a>
-        </li>
-        <li>
-          <a href="/3">λ #3</a>
-        </li>
-        <li>
-          <a href="/4">λ #4</a>
-        </li>
-        <li>
-          <a href="/5">λ #5</a>
-        </li>
-        <li>
-          <a href="/7">λ #7</a>
-        </li>
-        <li>
-          <a href="/8">λ #8</a>
-        </li>
-        <li>
-          <a href="/9">λ #9</a>
-        </li>
-        <li>
-          <a href="/10">λ #10</a>
-        </li>
-        <li>
-          <a href="/11">λ #11</a>
-        </li>
-        <li>
-          <a href="/12">λ #12</a>
-        </li>
-        <li>
-          <a href="/13">λ #13</a>
-        </li>
-      </ul>
-    </footer>
+      <footer>
+        <ul>
+          <li>
+            <a href="/wallpers">λОбои</a>
+          </li>
+          <li>
+            <a href="/1">λ #1</a>
+          </li>
+          <li>
+            <a href="/2">λ #2</a>
+          </li>
+          <li>
+            <a href="/3">λ #3</a>
+          </li>
+          <li>
+            <a href="/4">λ #4</a>
+          </li>
+          <li>
+            <a href="/5">λ #5</a>
+          </li>
+          <li>
+            <a href="/7">λ #7</a>
+          </li>
+          <li>
+            <a href="/8">λ #8</a>
+          </li>
+          <li>
+            <a href="/9">λ #9</a>
+          </li>
+          <li>
+            <a href="/10">λ #10</a>
+          </li>
+          <li>
+            <a href="/11">λ #11</a>
+          </li>
+          <li>
+            <a href="/12">λ #12</a>
+          </li>
+          <li>
+            <a href="/13">λ #13</a>
+          </li>
+        </ul>
+      </footer>
+    </main>
   </section>
 </section>
