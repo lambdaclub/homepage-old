@@ -9,6 +9,16 @@ $white: rgba(255, 255, 255, 0.9);
 $blue: #045afa;
 $bg-gradient: linear-gradient(to top, hsla(294.38, 85.71%, 21.96%, 0.39) 0%, hsla(294.49, 85.78%, 21.88%, 0.395) 9.9%, hsla(294.87, 85.99%, 21.61%, 0.411) 18.9%, hsla(295.46, 86.32%, 21.2%, 0.436) 26.4%, hsla(296.2, 86.74%, 20.71%, 0.466) 32.5%, hsla(297.03, 87.22%, 20.17%, 0.498) 37.7%, hsla(297.92, 87.73%, 19.62%, 0.531) 42.4%, hsla(298.87, 88.29%, 19.07%, 0.565) 47%, hsla(299.84, 88.87%, 18.52%, 0.599) 51.7%, hsla(300.84, 89.61%, 18.2%, 0.631) 56.8%, hsla(301.8, 90.36%, 17.94%, 0.663) 62.4%, hsla(302.71, 91.08%, 17.7%, 0.692) 68.7%, hsla(303.54, 91.75%, 17.49%, 0.718) 75.9%, hsla(304.25, 92.33%, 17.3%, 0.741) 83.9%, hsla(304.83, 92.81%, 17.15%, 0.759) 92.6%, hsla(305.19, 93.1%, 17.06%, 0.77) 100%);
 
+@mixin gradient {
+  background: #23A6D5;
+  background: -moz-linear-gradient(-45deg, #EE7752, #af5fe4, #23A6D5, #23D5AB);
+  background: -webkit-linear-gradient(-45deg, #EE7752, #af5fe4, #23A6D5, #23D5AB);
+  background: -o-linear-gradient(-45deg, #EE7752, #af5fe4, #23A6D5, #23D5AB);
+  background: -ms-linear-gradient(-45deg, #EE7752, #af5fe4, #23A6D5, #23D5AB);
+  background: linear-gradient(-45deg, #EE7752, #af5fe4, #23A6D5, #23D5AB);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE7752', endColorstr='#23D5AB', GradientType=1);
+}
+
 body {
   margin: 0px;
   font-family: "Roboto Condensed", sans-serif;
@@ -55,43 +65,35 @@ main {
   margin-top: 30px;
 
   @media(min-width: 1200px) {
-    margin: 0;
-  }
-  h1 {
-    margin: 0;
+    margin-top: 60px;
   }
 }
 
-.logo {
-  display: block;
+.logo-name {
+  @include gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 600% 200%;
+  -webkit-animation: gradient 15s ease infinite;
+  -moz-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  letter-spacing: 8px;
+  margin: 0;
 
-  &-img {
-    width:90vw;
-    height: 12vw;
+  & > a {
+    display: block;
+    text-decoration: none;
   }
-  &-path {
-    fill: none;
-    stroke: url('#gradient');
-    stroke-width: 2;
-  }
-  &-name {
-    @include flexbox;
-    @include justify-content(center);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 80px;
-    letter-spacing: 8px;
-    margin: 0 auto;
-    width: auto;
 
-    @media (max-width: 768px) {
-      font-size: 48px;
-      letter-spacing: 4px;
-    }
+  @media (max-width: 768px) {
+    font-size: 50px;
+    letter-spacing: 4px;
   }
-  &-name, p {
-    color: $white;
-    text-shadow: 1px 1px 2px $body-color;
+  @media screen and (max-width: 568px) {
+    white-space: nowrap;
   }
 }
 
@@ -245,7 +247,7 @@ span.time {
 .reports {
   @include flex(1 1);
   padding: 0 15px;
-  margin: 30px auto 0;
+  margin: 0 auto;
   width: 100%;
   max-width: 815px;
   box-sizing: border-box;
@@ -277,8 +279,7 @@ span.time {
       height: 100%;
       -webkit-filter: brightness(1.15);
       filter: brightness(1.15);
-      shape-outside: ellipse(100px 200px at 50% 50%);
-      clip-path: ellipse(100px 200px at 50% 50%);
+
       @media (max-width: 767px) {
         margin: auto;
         width: 180px;
@@ -298,7 +299,7 @@ span.time {
     }
   }
   &-block {
-    @include flex(0 1 50%);
+    @include flex(0 1 65%);
     text-align: center;
     text-shadow: 1px 1px 2px $body-color;
   }
@@ -433,3 +434,40 @@ canvas{
   height: 100%;
   background-color: $body-color;
   }
+
+  // keyframes
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
